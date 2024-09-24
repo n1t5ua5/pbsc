@@ -71,8 +71,8 @@ class Car{
 public class CarDemo {
     public static void main(String[] args) {
         // Create two car objects using the constructor
-        Car car1 = new Car("Honda", "Accord", 2022);
-        Car car2 = new Car("Toyota", "Camry", 2019);
+        Car car1 = new Car("Honda ", "Accord", 2022);
+        Car car2 = new Car("Toyota ", "Camry", 2019);
 
         // Start both cars
         car1.start();
@@ -92,4 +92,3 @@ public class CarDemo {
 
     }
 }
-
