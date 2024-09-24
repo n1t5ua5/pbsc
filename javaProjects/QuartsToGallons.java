@@ -4,6 +4,6 @@ public class QuartsToGallons {
         int quartsNeeded = 18;
         int gallonsNeeded = quartsNeeded / QUART_IN_GALLON;
         int extraQuarts = gallonsNeeded % QUART_IN_GALLON;
-        System.out.printIn("A job that needs " + quartsNeeded + "quarts requires " + gallonsNeeded + "gallons plus" + extraQuarts + "quarts.");
+        System.out.println("A job that needs " + quartsNeeded + " quarts requires " + gallonsNeeded + " gallons plus" + extraQuarts + "quarts.");
     }
 }
