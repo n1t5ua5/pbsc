@@ -7,6 +7,20 @@ public class JavaJournal {
 
 
 /*
+Traffic Light: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/trafficlight.java
+
+DIRECTIONS: Write a Java program to create a class called "TrafficLight" with attributes for color & duration
+& methods to change the color & check for red or green.
+
+SOLUTION: My code defines a Student class to manage a student's name, grade, & a list of courses they’re enrolled in.
+It contains methods to add & remove courses from the list & to display the current courses located on lines 15 - 28.
+In the main method, an instance of the Student class is created to add two courses, it then displays the list of
+courses, removes one & finally displays the updated list again.
+*/
+
+
+
+/*
 Student: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/student.java
 
 DIRECTIONS: Write a Java program to create a class called "Student" with a name, grade, & course attributes,
