@@ -2,8 +2,37 @@ public class JavaJournal {
 
 }
 
+// JAVA JOURNAL, SEPTEMBER 2024
 
-// SEPTEMBER 2024
+
+
+/*
+Percentages: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/percentages.java
+
+First, I imported the scanner method on line 3. Then I defined an Employee class in Java that holds three pieces of information:
+an employee's name, job title, & salary on lines 5-9. The class includes a constructor that initializes these variables. In the
+main method starting on line 18, the program prompts the user to enter an employee's name, job title, and salary through the
+console. After, it creates an instance of the Employee class with the provided data. Finally, the program displays the
+employee's details (name, job title, & salary) back to the user & the Scanner is closed to prevent resource leaks.
+*/
+
+
+
+/*
+Eggs: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/eggs.java
+
+DIRECTIONS: Meadowdale Dairy Farm sells organic brown eggs to local customers. It charges $3.25 for a dozen eggs or 45 cents
+for individual eggs that are not part of a dozen. Write a program that prompts a user for the number of eggs in the order &
+then display the amount owed with a full explanation. For example, a typical output might be You ordered 27 eggs. That’s 2
+dozen at $3.25 per dozen & 3 loose eggs at 45 cents each for a total of $7.85. Save the program as Eggs.java.
+
+SOLUTION: This program calculates the total cost of eggs based on user input. It begins by defining the price of a dozen eggs as
+$3.25 and the price of individual eggs as $0.45 on lines 5 - 9. It also defines that a dozen contains 12 eggs. Then the user is
+prompted to enter the total number of eggs they want to order. It calculates how many full dozens & leftover eggs the user has
+by dividing and finding the remainder of the total egg count. The total cost is calculated based on the number of dozens &
+leftover eggs. Finally, the program outputs a detailed explanation of the order & then closes the Scanner object.
+*/
+
 
 
 /*
@@ -15,6 +44,7 @@ main method starting on line 18, the program prompts the user to enter an employ
 console. After, it creates an instance of the Employee class with the provided data. Finally, the program displays the
 employee's details (name, job title, & salary) back to the user & the Scanner is closed to prevent resource leaks.
 */
+
 
 
 /*
