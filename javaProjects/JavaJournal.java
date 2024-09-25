@@ -9,11 +9,19 @@ public class JavaJournal {
 /*
 Percentages: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/percentages.java
 
-First, I imported the scanner method on line 3. Then I defined an Employee class in Java that holds three pieces of information:
-an employee's name, job title, & salary on lines 5-9. The class includes a constructor that initializes these variables. In the
-main method starting on line 18, the program prompts the user to enter an employee's name, job title, and salary through the
-console. After, it creates an instance of the Employee class with the provided data. Finally, the program displays the
-employee's details (name, job title, & salary) back to the user & the Scanner is closed to prevent resource leaks.
+DIRECTIONS: Create an application named Percentages whose main() method holds two double variables, & prompt the user for
+values. Pass both variables to a method named computePercent() that displays the two values & the value of the first
+number as a percentage of the second one. For example, if the numbers are 2.0 & 5.0, the method should display a
+statement similar to 2.0 is 40 percent of 5.0. Then call the method a second time, passing the values in reverse
+order. Save the application as Percentages.java.
+
+SOLUTION: This program calculates & displays the percentage of one number in relation to another. It starts by prompting
+the user to input two decimal numbers on lines 8-12. After capturing the inputs, the program calls a method named
+computePercent twice: first to determine what percentage the first number is of the second & then again to find
+out what percentage the second number is of the first. The method performs the calculation by dividing the first
+number by the second & multiplying the result by 100 to express it as a percentage. It then outputs the results
+to the console, showing both the calculated percentage & the original numbers & then closes the scanner.
+
 */
 
 
