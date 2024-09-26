@@ -6,6 +6,23 @@ public class JavaJournal {
 
 
 /*
+Seasoned Employee: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/seasonedemployee.java
+
+DIRECTIONS: Write a Java program to create a class called "Employee" with a name, salary, & hire
+date attributes, & a method to calculate years of service.
+
+SOLUTION: I designed this program like the other Employee.java project, except this time we’re looking to
+find the amount of years employed somewhere. So I used a new class name, SeasonedEmployee, & gave it three
+attributes: name, hireDate, & salary. The class includes a constructor that initializes the attributes, on
+lines 11 – 16. There is a method called totalYears that calculates the total years of service by subtracting
+the employee's hire year from the current year on lines 19 - 22. In the main method, user input is from the
+Scanner object to get the employee's name, hire year, & salary. Then, an instance of SeasonedEmployee is
+created, & the total years employed is calculated using the current year. Finally, the employee's details
+& the total years of service are displayed in the console.
+ */
+
+
+/*
 Minutes Conversion: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/minutesconversion.java
 
 DIRECTIONS: Write a program that accepts an integer number of minutes from a user and converts it both
