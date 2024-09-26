@@ -5,6 +5,19 @@ public class JavaJournal {
 // JAVA JOURNAL, SEPTEMBER 2024
 
 
+/*
+Minutes Conversion: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/minutesconversion.java
+
+DIRECTIONS: Write a program that accepts an integer number of minutes from a user and converts it both
+to hours and days. For example, 6,000 minutes equals 100 hours and equals 4.167 days. Save the
+program as MinutesConversion.java.
+
+SOLUTION: I defined a class named Minutes Converter along with importing the Scanner object on lines 1 - 3.
+The user is asked to input a random number of minutes on line 8. Then the minutes are converted into hours
+& days using division & multiplication. The results are printed within the console to display the number
+of hours & the number of days converted on lines 16 - 18. Last but not least, I closed the Scanner object.
+*/
+
 
 /*
 Traffic Light: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/trafficlight.java
@@ -12,10 +25,12 @@ Traffic Light: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/trafficlig
 DIRECTIONS: Write a Java program to create a class called "TrafficLight" with attributes for color & duration
 & methods to change the color & check for red or green.
 
-SOLUTION: My code defines a Student class to manage a student's name, grade, & a list of courses they’re enrolled in.
-It contains methods to add & remove courses from the list & to display the current courses located on lines 15 - 28.
-In the main method, an instance of the Student class is created to add two courses, it then displays the list of
-courses, removes one & finally displays the updated list again.
+SOLUTION: First, I imported the scanner object for user input. Then I defined a TrafficLight class with two
+attributes: color & duration. Next, I created the changeColor method which updates the color of the traffic
+light & automatically sets the duration based on the color: 60 seconds if the light is red & 180 seconds
+if it is green. The program uses a Scanner object to take user input from the console, asking the user
+for the color of the traffic light. After the user enters a color, the changeColor method is called
+to update the traffic light's state. Finally, the program prints the color & duration.
 */
 
 
