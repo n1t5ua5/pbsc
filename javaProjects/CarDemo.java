@@ -67,7 +67,6 @@ class Car{
 
 }
 
-
 public class CarDemo {
     public static void main(String[] args) {
         // Create two car objects using the constructor
