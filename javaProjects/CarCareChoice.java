@@ -25,12 +25,9 @@ public class CarCareChoice {
                     break;
                 }
             }
-
             // if the service is not valid; display an error message
             if (!validChoice) {
                 System.out.println("Error: invalid service entered. Pleease select a valid option");
             }
-
         }
-
     }
