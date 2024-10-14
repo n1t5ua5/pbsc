@@ -24,4 +24,14 @@ public class Purchase {
             System.out.println("Tax Amount: $ " + tax);
             System.out.println("Total Purchase: $ " + (sale + tax));
         }
+
+        // created main method to test Purchase class
+        public static void main (String[] args) {
+            Purchase purchase = new Purchase();
+
+            purchase.setInvoice(10000);
+            purchase.setSale(100.0);
+
+            purchase.Details();
+        }
     }
