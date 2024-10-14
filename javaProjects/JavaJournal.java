@@ -55,6 +55,64 @@ number, the sale amount, the tax & the total cost of the purchase sale.
 */
 
 
+/*
+Count by Five: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/countbyfives.java
+
+PROBLEM: Write an application that includes final constants named START and STOP that are set to 5 & 500, respectively.
+The application counts by five from 5 through 500 inclusive, and it starts a new line after every multiple of
+50 (50, 100, 150, and so on). Save the file as java. Then modify the CountByFives application so that the
+user enters the value to count by. Start each new line after 10 values have been displayed.
+Save thefile as CountByFives.java.
+
+SOLUTION: This simple program counts numbers from 5 up to 500 based on the value input by the user. It first checks if the user
+input a valid integer before proceeding. If valid, it starts from 5 & increments by the user’s input until it reaches or exceeds
+500. It also formats the output so that it starts a new line after every ten numbers per the instructions provided.
+*/
+
+
+/*
+Even: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/even.java
+
+PROBLEM: Write an application that asks a user to type an even number or the sentinel value 999 to stop. When the user types
+of an even number, display the message "Good job!" & then ask for another input. When the user types of an odd number,
+display an error message and then ask for another input. When the user types the sentinel value 999, end the program.
+Save the file as Even.java.
+
+SOLUTION: I created a class called Even & then asked users to enter an even number or type 999 to quit in the main method.
+Then on lines 15 – 23, I created a series of if-else statements to check if the user wants to exit the program, input a
+proper value or an incorrect one. If the user inputs 999, the program says "Goodbye." If another number is entered,
+it checks whether the number is even or odd. If it’s even, it congratulates the user; if it’s not, it displays
+an error message. Lastly, the scanner object is closed.
+*/
+
+
+/*
+Ascending / Descending: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/ascendingdescending.java
+
+SOLUTION: Write an application that asks a user to enter three integers. Display them in ascending and descending order.
+Save the file as AscendingDescending. java.
+
+PROBLEM: My newest Java program ask for three numbers as input from the user & arranges them in both ascending & descending order.
+From lines 23 – 50, I wrote a series of if-else statements to compare values &determine which one is the maximum (max), middle (mid)
+& minimum (min) number. Once the order is established, it displays the numbers in ascending order (from smallest to largest), then
+descending order (from largest to smallest).
+*/
+
+
+/*
+Even Odd: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/evenodd.java
+
+PROBLEM: Write an application that asks a user to enter an integer. Pass the integer to a method that determines whether the number
+is even and returns a Boolean value. Display a statement that indicates whether the integer is even or odd. Save the file as EvenOdd.java.
+
+SOLUTION: I used the Scanner class to accept user input from the console. The program then prompts the user to enter an integer & reads
+the input using the nextInt() method of the Scanner object. Once the integer is input, the program calls the isEven() method.
+Inside this method, it checks whether the number is divisible by 2 by using the modulus operator (%). If the remainder when
+divided by 2 is zero, the method returns true, otherwise, it returns false i.e. odd. The returned boolean value from the
+isEven() method is stored in the isEvenNumber variable.
+*/
+
+
 // JAVA JOURNAL, SEPTEMBER 2024
 
 /*
