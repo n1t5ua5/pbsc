@@ -2,8 +2,60 @@ public class JavaJournal {
 
 }
 
-// JAVA JOURNAL, SEPTEMBER 2024
 
+// JAVA JOURNAL, OCTOBER 2024
+
+/*
+Car Care Choice: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/carcarechoice.java
+
+PROBLEM: Write an application for Chapa’s Car Care Shop that shows a user a list of available services: oil
+change, tire rotation, battery check, or brake inspection. Allow the user to enter a string that corresponds
+to one of the options & display the option & its price as $25, $22, $15, or $5, accordingly. Display
+an error message if the user enters an invalid item. Save the file as CarCareChoice.java.
+
+SOLUTION: For the CarCareChoice project, I wrote a simple program that offers a list of car services like
+oil changes & brake checks, with each service having its own unique set price which is instantiated in
+the main method (lines 3 – 8). When the user opens the terminal, they are greeted with a welcome
+message, followed by asking the user to type in the name of a service from the list. The program
+then responds with the price for that specific service. If the user types something that isn’t
+already inside the list, an error message pops which asks them to pick a valid service.
+*/
+
+
+/*
+Distance from Avg: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/distancefromaverage.java
+
+PROBLEM: Allow a user to enter any number of double values up to 15. The user should enter 99999 to quit
+entering numbers. Display an error message if the user quits without entering any numbers; otherwise,
+display a count of the numbers entered, the arithmetic average of the numbers, & each entered value
+& its distance from the average. Save the file as DistanceFromAverage.java.
+
+SOLUTION: First, the Scanner object is imported to allow user input. Then the DistanceFromAverage class
+is declared, followed by variables being instantiated in the main method on lines 5 – 11. Upon opening
+the terminal for this program, the user is asked to enter up to 15 numbers, one by one. The user can
+stop entering numbers early by typing 99999, which exits the program completely. Then the program
+stores the numbers entered by the user, adds them up & calculates the average. If no numbers are
+entered, it shows an error message. If numbers are entered, it displays the count of numbers,
+the average, & how far each number is from the average.
+*/
+
+
+/*
+Purchase: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/purchase.java
+
+PROBLEM: Create a class named Purchase. Each Purchase contains an invoice number, amount of sale, &
+amount of sales tax. Include set methods for the invoice number & sale amount. Within the set method
+for the sale amount, calculate the sales tax as 5 percent of the sale amount. Also include a display
+method that displays a purchase’s details. Save the file as Purchase.java.
+
+SOLUTION: Inside the Purchase class I created, the program is designed to manage details about a
+particular purchase. It allows the user to set an invoice number & a sale amount. Next, it
+calculates a 5% tax based on the sale amount. After that, it prints out the invoice
+number, the sale amount, the tax & the total cost of the purchase sale.
+*/
+
+
+// JAVA JOURNAL, SEPTEMBER 2024
 
 /*
 Seasoned Employee: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/seasonedemployee.java
@@ -25,8 +77,8 @@ created, & the total years employed is calculated using the current year. Finall
 /*
 Minutes Conversion: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/minutesconversion.java
 
-DIRECTIONS: Write a program that accepts an integer number of minutes from a user and converts it both
-to hours and days. For example, 6,000 minutes equals 100 hours and equals 4.167 days. Save the
+DIRECTIONS: Write a program that accepts an integer number of minutes from a user & converts it both
+to hours & days. For example, 6,000 minutes equals 100 hours & equals 4.167 days. Save the
 program as MinutesConversion.java.
 
 SOLUTION: I defined a class named Minutes Converter along with importing the Scanner object on lines 1 - 3.
@@ -51,7 +103,6 @@ to update the traffic light's state. Finally, the program prints the color & dur
 */
 
 
-
 /*
 Student: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/student.java
 
@@ -63,7 +114,6 @@ It contains methods to add & remove courses from the list & to display the curre
 In the main method, an instance of the Student class is created to add two courses, it then displays the list of
 courses, removes one & finally displays the updated list again.
 */
-
 
 
 /*
@@ -84,7 +134,6 @@ to the console, showing both the calculated percentage & the original numbers & 
 */
 
 
-
 /*
 Eggs: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/eggs.java
 
@@ -94,27 +143,25 @@ then display the amount owed with a full explanation. For example, a typical out
 dozen at $3.25 per dozen & 3 loose eggs at 45 cents each for a total of $7.85. Save the program as Eggs.java.
 
 SOLUTION: This program calculates the total cost of eggs based on user input. It begins by defining the price of a dozen eggs as
-$3.25 and the price of individual eggs as $0.45 on lines 5 - 9. It also defines that a dozen contains 12 eggs. Then the user is
+$3.25 & the price of individual eggs as $0.45 on lines 5 - 9. It also defines that a dozen contains 12 eggs. Then the user is
 prompted to enter the total number of eggs they want to order. It calculates how many full dozens & leftover eggs the user has
-by dividing and finding the remainder of the total egg count. The total cost is calculated based on the number of dozens &
+by dividing & finding the remainder of the total egg count. The total cost is calculated based on the number of dozens &
 leftover eggs. Finally, the program outputs a detailed explanation of the order & then closes the Scanner object.
 */
-
 
 
 /*
 Employee: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/employee.java
 
-DIRECTIONS: Write a Java program to create a class called "Employee" with a name, salary, and hire date attributes,
-and a method to calculate years of service.
+DIRECTIONS: Write a Java program to create a class called "Employee" with a name, salary, & hire date attributes,
+& a method to calculate years of service.
 
 SOLUTION: First, I imported the scanner method on line 3. Then I defined an Employee class in Java that holds three pieces of information:
 an employee's name, job title, & salary on lines 5-9. The class includes a constructor that initializes these variables. In the
-main method starting on line 18, the program prompts the user to enter an employee's name, job title, and salary through the
+main method starting on line 18, the program prompts the user to enter an employee's name, job title, & salary through the
 console. After, it creates an instance of the Employee class with the provided data. Finally, the program displays the
 employee's details (name, job title, & salary) back to the user & the Scanner is closed to prevent resource leaks.
 */
-
 
 
 /*
@@ -128,7 +175,6 @@ isEven() method is stored in the isEvenNumber variable.
 */
 
 
-
 /*
 Quarts to Gallons: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/quartstogallons.java
 
@@ -136,7 +182,6 @@ I defined a constant QUART_IN_GALLON, which holds the value of quarts in one gal
 initial value of quartsNeeded (18) & calculates the number of full gallons by dividing quartsNeeded by QUART_IN_GALLON.
 Then the program prints a message displaying how many full gallons & extra quarts are needed for a job requiring 18 quarts.
 */
-
 
 
 /*
@@ -150,7 +195,6 @@ the radius is updated to 7 & the updated attributes are displayed once more usin
 */
 
 
-
 /*
 Person Data: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/Person.java
 
@@ -159,7 +203,6 @@ a constructor that initializes these attributes, along with getter methods to re
 The main method creates two instances of the Person class, person1 & person2, & calls the
 displayPersonInfo() method for each.
 */
-
 
 
 /*
@@ -172,7 +215,6 @@ of 3.0. Finally, the program calculates & displays the area & perimeter of the r
 */
 
 
-
 /*
 Tables & Chairs: https://github.com/n1t5ua5/pbsc/blob/main/javaprojects/tablesandchairs.java
 
@@ -181,7 +223,6 @@ of a table & chairs using. The program uses the System.out.println() method to p
 of text that, when combined, form the shape of a table with chairs on either side. The output visually
 mimics the arrangement of chairs ("X") on the sides of a table ("XXXXXXXXXX") with legs ("X") on both ends.
 */
-
 
 
 /*
@@ -195,7 +236,6 @@ using the setter methods. Finally, I printed the updated information.
 */
 
 
-
 /*
 Song Lyrics: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/SongLyrics.java
 
@@ -204,7 +244,6 @@ Each line is displayed using the System.out.println() method. Additionally, the 
 YouTube, allowing users to access the full track easily.
 
 */
-
 
 
 /*
