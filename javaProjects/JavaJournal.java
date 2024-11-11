@@ -2,6 +2,25 @@ public class JavaJournal {
 
 }
 
+// JAVA JOURNAL, NOVEMBER 2024
+
+/*
+Grader: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/grader.java
+
+PROBLEM: Design & implement a simple Java program that uses a two-dimensional array to manage student grades across
+multiple subjects. The program should allow input of grades for several students & subjects, calculate each
+student's average grade, & display the highest & lowest grades in each subject. Include error handling for
+invalid inputs & provide a method to display a summary of student performance. Use a two-dimensional array
+to store & retrieve student grades. Apply array operations to calculate & display summary statistics.
+Practice handling user input & displaying organized output
+
+SOLUTION: This Java program, called Grader, collects grades for six students across four subjects, calculates the
+highest & lowest grades for each subject, & then displays these values. Using a 2D array, studentGrades, the
+program organizes student scores. Each row represents a student & each column represents a subject. After
+gathering user input, the program iterates over each subject to identify the highest & lowest grades
+recorded among all students for that subject. Finally, it prints out the highest &
+lowest grades per subject.
+ */
 
 // JAVA JOURNAL, OCTOBER 2024
 

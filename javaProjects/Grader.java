@@ -18,6 +18,10 @@ public class Grader {
             // Looping through each subject for the current student
             for (int j = 0; j < studentGrades[i].length; j++) {
                 System.out.println("Subject " + (j + 1) + ": ");
+                while (!scanner.hasNextFloat()) { // Basic check for valid float input
+                    System.out.println("Invalid input. Please enter a number.");
+                    scanner.next(); // Clear the invalid input
+                }
                 studentGrades[i][j] = scanner.nextFloat();
             }
         }
