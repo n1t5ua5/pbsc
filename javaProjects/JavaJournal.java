@@ -4,6 +4,20 @@ public class JavaJournal {
 
 // JAVA JOURNAL, NOVEMBER 2024
 
+
+/*
+Integer Store: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/integerstore.java
+
+PROBLEM: Write an application that stores nine integers in an array named numbers. Display the integers from first
+to last, & then display the integers from last to first. Save the file as IntegerStore.java.
+
+SOLUTION: I started by initializing an array of nine integers. Next, it displays the integers in the array from the beginning
+to the end by iterating through the array from the first element to the last, printing each integer. After, it displays the
+integers in reverse order by iterating from the last element to the first. Each element is printed on the same line with
+spaces in between, & the output is separated into two sections with clear labels to show the different orders.
+ */
+
+
 /*
 Grader: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/grader.java
 
@@ -12,7 +26,7 @@ multiple subjects. The program should allow input of grades for several students
 student's average grade, & display the highest & lowest grades in each subject. Include error handling for
 invalid inputs & provide a method to display a summary of student performance. Use a two-dimensional array
 to store & retrieve student grades. Apply array operations to calculate & display summary statistics.
-Practice handling user input & displaying organized output
+Practice handling user input & displaying organized output.
 
 SOLUTION: This Java program, called Grader, collects grades for six students across four subjects, calculates the
 highest & lowest grades for each subject, & then displays these values. Using a 2D array, studentGrades, the
@@ -22,7 +36,9 @@ recorded among all students for that subject. Finally, it prints out the highest
 lowest grades per subject.
  */
 
+
 // JAVA JOURNAL, OCTOBER 2024
+
 
 /*
 Car Care Choice: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/carcarechoice.java
