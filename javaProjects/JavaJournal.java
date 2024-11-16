@@ -4,6 +4,69 @@ public class JavaJournal {
 
 // JAVA JOURNAL, NOVEMBER 2024
 
+/*
+Car: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/car.java
+Vehicle: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/vehicle.java
+ElectricCar: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/electriccar.java
+Electric: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/electric.java
+
+PROBLEM: Create a simple Java program that uses both inheritance & interfaces. Step 1: Create a Base Class.
+public class Vehicle {
+    protected String brand;
+    public Vehicle(String brand) {
+        this.brand = brand;
+}
+    public void displayBrand() {
+        System.out.println("Brand: " + brand);
+    }
+}
+
+This Vehicle class has a brand property & a displayBrand() method. Step 2: Create a Derived Class Create a derived class Car that extends Vehicle. */
+
+// public class Car extends Vehicle {
+//     private int numberOfDoors;
+//     public Car(String brand, int numberOfDoors) {
+//         super(brand); // Calls the constructor of Vehicle
+//         this.numberOfDoors = numberOfDoors;
+//     }
+
+//     public void displayDetails() {
+//         displayBrand(); // Calls the method from Vehicle
+//         System.out.println("Number of Doors: " + numberOfDoors);
+//     }
+// }
+
+// The Car class inherits the Vehicle class, adding its own property & method. Step 3: Create an Interface. Define an interface Electric with a method signature. */
+
+// public interface Electric {
+//     void chargeBattery();
+// }
+
+// This interface has a chargeBattery() method that any implementing class must define. Step 4: Implement the Interface in the Derived Class. Modify Car to implement the Electric. The ElectricCar class extends Car  implements the Electric interface, providing the body for chargeBattery(). Coding Practice & Discussion. */
+// public class ElectricCar extends Car implements Electric {
+//     private int batteryCapacity;
+//     public ElectricCar(String brand, int numberOfDoors, int batteryCapacity) {
+//         super(brand, numberOfDoors);
+//         this.batteryCapacity = batteryCapacity;
+//     }
+//     @Override
+//     public void chargeBattery() {
+//         System.out.println("Charging the battery with capacity: " + batteryCapacity + " kWh.");
+//     }
+//     @Override
+//     public void displayDetails() {
+//         super.displayDetails();
+//         System.out.println("Battery Capacity: " + batteryCapacity + " kWh");
+//     }
+// }
+// SOLUTION: These files work together to represent different types of vehicles. The Vehicle class is the base,
+// it stores general information like the brand of the vehicle. The Car class builds on Vehicle by adding details
+// like the number of doors. The Electric file is an interface that defines a rule: any electric vehicle must
+// have a way to charge its battery. Finally, the ElectricCar class combines both ideas; it’s a car
+// (with doors and a brand) & an electric vehicle (with a battery that can be charged). This setup
+// helps organize the code & makes it easier to add new types of vehicles in the future.
+// */
+
 
 /*
 Integer Store: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/integerstore.java
