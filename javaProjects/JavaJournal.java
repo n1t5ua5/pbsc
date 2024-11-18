@@ -5,6 +5,26 @@ public class JavaJournal {
 // JAVA JOURNAL, NOVEMBER 2024
 
 /*
+Athlete: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/athlete.java
+Machine: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/machine.java
+Runner: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/runner.java
+DemoRunners: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/demorunners.java
+PoliticalCandidate: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/politicalcandidate.java
+
+PROBLEM: Create an interface called Runner. The interface has an abstract method called run(). Save the file as
+Runner.java. Create classes called Machine, Athlete, & PoliticalCandidate that all implement Runner. The run()
+method displays a message describing the meaning of run to each class. Save the files as Machine.java, Athlete.java,
+& PoliticalCandidate.java. Create an application that prompts the user for the type of object to create. Create it,
+& display the message that describes run for the class. Save the fileas DemoRunners.java.
+
+SOLUTION: I created an interface Runner implemented by multiple classes (Machine, PoliticalCandidate & Athlete).
+Based on user input via the scanner import, the program creates an instance of one of these classes & calls
+the run method, which outputs a message specific to the selected type. This is to demonstrate how
+different types can share the same interface.
+ */
+
+
+/*
 Car: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/car.java
 Vehicle: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/vehicle.java
 ElectricCar: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/electriccar.java
