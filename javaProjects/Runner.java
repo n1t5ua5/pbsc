@@ -1,6 +1,5 @@
 public interface Runner {
-
-    @Override
-    public void run();
-        System.out.println("The machine is running smoothly & efficiently.");
+    // Interface defining the behavior of a Runner
+    void run();
+    // Abstract method to be implemented by all Runner types
 }
