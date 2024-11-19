@@ -5,6 +5,30 @@ public class JavaJournal {
 // JAVA JOURNAL, NOVEMBER 2024
 
 /*
+Division: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/division.java
+InterDivision: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/interdivision.java
+DomesticDivision: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/domesticdivision.java
+UseDivision: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/usedivision.java
+
+PROBLEM: Create an abstract Division class with fields for a company’s division name & account number,
+& an abstract display() method. Use a constructor in the superclass that requires values for both fields.
+Save the file as Division.java. Create two subclasses named InternationalDivision & DomesticDivision. The
+InternationalDivision subclass includes a field for the country in which the division is located &
+a field for the language spoken; its constructor requires both. The DomesticDivision subclass includes
+a field for the state in which the division is located; a value for this field is required by the constructor.
+Save the files as InternationalDivision.java & DomesticDivision.java. Write an application named UseDivision
+that creates a Division reference. Ask the user whether a DomesticDivision or InternationalDivision object
+should be created. Prompt for appropriate values & assign a new subclass object to the Division reference.
+Then display the details of the created object. Save the file as useDivision.java.
+
+SOLUTION: The program we created in class models a system for managing organizational divisions, allowing for
+two types: Domestic & International. The base class Division encapsulates common properties like divisionName
+& accountNumber, while subclasses domesticDivision & interDivision add specific attributes like state,
+country & language. The useDivision class facilitates user interaction through the scanner object to collect
+user inputs to create & display the right division objects based on the type specified.
+ */
+
+/*
 Athlete: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/athlete.java
 Machine: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/machine.java
 Runner: https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/runner.java
