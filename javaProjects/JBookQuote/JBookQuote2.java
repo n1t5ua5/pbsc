@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-
 public class JBookQuote2 extends JFrame {
     public JBookQuote2() {
         // Create JFrame
@@ -10,7 +9,6 @@ public class JBookQuote2 extends JFrame {
         setSize(400, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
-
 
         // Add quote to the frame
         JLabel quote = new JLabel("<html> The opening sentence of my favorite book:<br> 'It was the best of times, it was the worst of times...'<html>");
@@ -31,10 +29,9 @@ public class JBookQuote2 extends JFrame {
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                title.setText("A tale of two cities by Charles Dickinson.");
+                title.setText("A Tale of Two Cities by Charles Dickinson.");
             }
         });
-
 
         // set visibility
         setVisible(true);

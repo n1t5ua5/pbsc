@@ -1,5 +1,16 @@
 # JAVA JOURNAL, NOVEMBER 2024
 
+
+# JBook Quote
+## [JBook Quote](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jbookquote)
+
+**Problem(s):**
+Write an application that displays a JFrame containing the opening sentence or two from your favorite book. Save the file as JBookQuote.java. Add a button to the frame in the JBookQuote program. When the user clicks the button, display the title of the book that contains the quote. Save the file as JBookQuote2.java.
+
+**Solution(s):**
+This new program creates a JFrame with a title, size & layout. It includes a label to display the opening sentence of a favorite book & another label for showing the book's title. This concludes the solution for the first part of the first question. For the second part, a button labeled "Show Book Title" is added & its position is set using setBounds. An ActionListener is attached to the button, which updates the second label to display the book's title when clicked. The setVisible(true) method makes the JFrame visible so the user can interact with it.
+
+
 # JFrame Disable Button Problem
 ## [JFrame Disable Button](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jframedisablebutton)
 
