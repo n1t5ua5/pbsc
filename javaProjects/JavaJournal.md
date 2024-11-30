@@ -1,6 +1,16 @@
 # JAVA JOURNAL, NOVEMBER 2024
 
 
+# Lambert's Vacation Rental Calculator
+## [JVacationRental](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jvacationrental.java)
+
+**Problem(s):**
+Write an application for Lambert’s Vacation Rentals. Use separate ButtonGroups to allow a client to select one of three locations, the number of bedrooms, & whether meals are included in the rental. Assume that the locations are parkside for $600 per week, poolside for $750 per week, or lakeside for $825 per week. Assume that the rentals have one, two, or three bedrooms & that each number of bedrooms greater than one adds $75 to the base price. Assume that if meals are added, the price is $200 more per rental. Save the file as JVacationRental.java.
+
+**Solution(s):**
+I used a Swing-based GUI application to calculate the cost of a vacation rental. First, I defined base prices for different locations, bedrooms, & optional meal services. The JFrame serves as the main window, containing radio buttons for selecting the rental location & number of bedrooms, along with a checkbox for including meals. A button may be clicked to calculate the total costs, which is displayed on a label.
+
+
 # JBook Quote
 ## [JBook Quote](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jbookquote)
 
