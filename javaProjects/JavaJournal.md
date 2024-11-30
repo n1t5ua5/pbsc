@@ -1,13 +1,34 @@
 # JAVA JOURNAL, NOVEMBER 2024
 
 
+# The Sublime Sandwich Shop
+## [JSandwich.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jsandwich.java)
+
+**Problem:**
+Design an application for the Sublime Sandwich Shop. The user makes sandwich order choices from list boxes, and the application displays the price. The user can choose from three main sandwich ingredients of your choice (for example, chicken) at three different prices. The user also can choose from three different bread types (for example, rye). Save the file as JSandwich.java.
+
+**Solution:**
+The Sublime Sandwich Shop now has a tool that helps you calculate the cost of a sandwich. It shows a window created on lines 5 – 10. The user may choose which main ingredient they like, along with the bread which was created using JLabel & JButton combo on lines 12 - 24. After the user makes their choices, an event listener waits for a button to be clicked which calculates the total & displays the total price (Lines 26 – 55). This only happens after the components are lastly added together which then ultimately display the price in the application window (Lines 57-70).
+
+
+# JTV Show Synopsis Display
+## [SmartTV](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/smarttv.java)
+## [SmarterTV](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/smartertv.java)
+
+**Problem(s):**
+Write an application that allows a user to select one of at least five television shows to watch on demand. When the user selects a show, display a brief synopsis. Save the file as SmartTV.java. Change the JTVDownload application to include an editable combo box. Allow the user to type the name of a television show & display an appropriate error message if the desired show is not available. Save the file as SmarterTV.java.
+
+**Solution(s):**
+The SmartTV application allows users to select one of at least five television shows from a dropdown menu. When a show is selected, a brief synopsis of the show is displayed. The SmarterTV application builds upon the previous project by introducing an editable combo box so users can select either a show from the dropdown or type in a custom show's name. If the show that the user input isn’t on the list, an error message is displayed instead of the synopsis.
+
+
 # Lambert's Vacation Rental Calculator
 ## [JVacationRental](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jvacationrental.java)
 
-**Problem(s):**
+**Problem:**
 Write an application for Lambert’s Vacation Rentals. Use separate ButtonGroups to allow a client to select one of three locations, the number of bedrooms, & whether meals are included in the rental. Assume that the locations are parkside for $600 per week, poolside for $750 per week, or lakeside for $825 per week. Assume that the rentals have one, two, or three bedrooms & that each number of bedrooms greater than one adds $75 to the base price. Assume that if meals are added, the price is $200 more per rental. Save the file as JVacationRental.java.
 
-**Solution(s):**
+**Solution:**
 I used a Swing-based GUI application to calculate the cost of a vacation rental. First, I defined base prices for different locations, bedrooms, & optional meal services. The JFrame serves as the main window, containing radio buttons for selecting the rental location & number of bedrooms, along with a checkbox for including meals. A button may be clicked to calculate the total costs, which is displayed on a label.
 
 
