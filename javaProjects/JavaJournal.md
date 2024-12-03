@@ -1,3 +1,20 @@
+# JAVA JOURNAL, DECEMBER 2024
+
+# Inheritance & Interface
+## [Inheritance.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/inheritance.java)
+## [Inheritance2.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/inheritance2.java)
+
+**Problem(s):**
+(Inheritance.java) Create a parent class with at least one method and a few attributes. Implement at least two child classes that inherit from the parent class. Override at least one method in each child class to showcase polymorphism. Include comments throughout the code to explain the purpose and logic of each section.
+
+(Inheritance2.java) Create an interface with at least one method declaration. Implement the interface in one of the child classes created in Program 1. Demonstrate how the interface method is implemented and used in the child class. Ensure the program shows how both inheritance and the interface can work together. Add detailed comments explaining how the interface interacts with the inheritance structure.
+
+**Solution(s):**
+(Inheritance.java) I created the parent class Plants first with a name attribute & a displayInfo() method to provide general plant information. The two child classes I created after, Flower & Tree, both inherit from Plants & then override the displayInfo() method to provide specific messages for their respective types. Lastly on lines 36 - 45 I wrote in a main class where I created instances of flowers & trees (in this case it was Lavandar & Apples) which are then called & displayed in the terminal. Overriding the methods demonstrates polymorphism, because the output depends on the object's type.
+
+(Inheritance2.java) The second program I built uses the inheritance structure by first introducing an interface, Edible, which declares the eat() method. The two child classes I created after, Flower, Tree & Eat, all inherit from Plants & then override the displayInfo() method to provide specific messages for their respective types. The Tree class implements the interface, which adds functionality to describe edible parts of a tree like fruits or leaves; in this case apples. This approach shows how interfaces complement inheritance by adding behaviors without affecting hierarchy.
+
+
 # JAVA JOURNAL, NOVEMBER 2024
 
 
