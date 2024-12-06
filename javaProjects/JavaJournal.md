@@ -1,5 +1,47 @@
 # JAVA JOURNAL, DECEMBER 2024
 
+
+# Insurance Selecter
+## [JInsurance.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jinsurance.java)
+
+**Problem:**
+Write an application that allows the user to choose insurance options in JCheckBoxes. Use a ButtonGroup to allow the user to select only one of two insurance types—HMO (health maintenance organization) or PPO (preferred provider organization). Use regular (single) JCheckBoxes for dental insurance and vision insurance options; the user can select one option, both options, or neither option. As the user selects each option, display its name and price in a text field; the HMO costs $200 per month, the PPO costs $600 per month, the dental coverage adds $75 per month, and the vision care adds $20 per month. When a user deselects an item, make the text field blank. Save the file as JInsurance.java.
+
+**Solution:**
+After creating the JFrame application I created a button group of radio buttons so the user can choose between mutually exclusive insurance types: HMO or PPO. Users can also select optional dental & vision coverage using JCheckBox & JTextField to display the correct information. ActionListener logic exists on lines 29 - 57 to check which options are selected or not, the data is then updated & finally displays the selected options & total cost.
+
+
+# Country Capital City App
+## [JCapital.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jcapital.java)
+
+**Problem:**
+Write an application that allows a user to select a country from a list box that contains at least seven options. After the user makes a selection, display the country’s capital city. Save the file as JCapitals.java.
+
+**Solution:**
+Firt I created a HashMap within the main method to store the different countries with their respective capitals. Then I made a JComboBox dropdown menu listing different countries with a JLabel to display the selected country's capital. When the user selects a country from the dropdown menu, an ActionListener located on lines 30 - 39 retrieves the corresponding capital from the HashMap & updates the JLabel to show the result.
+
+
+# Paula's Portraits Application
+## [JPhotoFrame.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/jphotoframe.java)
+
+**Problem:**
+Create an application for Paula’s Portraits, a photography studio. The application allows users to compute the price of a photography session. Paula’s base price is $40 for an in-studio photo session with one person. The in-studio fee is $75 for a session with two or more subjects, and $95 for a session with a pet. A $90 fee is added to take photos on location instead of in the studio. Include a set of mutually exclusive checkboxes to select the portrait subject and another set for the session location. Include labels as appropriate to explain the application’s functionality. Save the file as JPhotoFrame.java
+
+**Solution:**
+This application features a graphical user interface (GUI) with options for selecting the subject of the portrait: "One Person," "Two or More People," or "Pet" & then the session location, either "In-Studio" or "On-Location." Users make selections using mutually exclusive JRadioButtons grouped into two panels: one for subject & one for location. The ActionListener located on lines 61 - 84 calculates the total cost based on whatever combo the user selected & finally shows the calculated total at the bottom of the application. The components use JPanels with titled borders to clearly show which items are being selected to the user.
+
+
+# Java Dorm App
+## [JDorm.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/mod12/jdorm.java)
+## [JDorm2.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/mod12/jdorm2.java)
+
+**Problem(s):**
+(JDorm.java) Search the Internet for information about how to use a JTextArea, its constructors, and its setText() and append() methods. Write an application that allows the user to select options for a dormitory room. Use JCheckBoxes for options such as private room, Internet connection, cable TV connection, microwave, refrigerator, and so on. When the application starts, use a text area to display a message listing the options that are not yet selected. As the user selects and deselects options, add appropriate messages to the text area so it accumulates a running list that reflects the user’s choices. Save the file as JDorm.java. (JDorm2.java) Modify the JDorm application so that instead of a running list of the user’s choices, the application displays only the current choices. Save the file as JDorm2.java.
+
+**Solution(s):**
+(JDorm.java) I first created the main JFrame application method, followed by JTextArea method which displays a default message listing all the available options. Users can select or deselect options like "Private Room," "Internet," or "Microwave" using the JCheckBox components created on lines 20 - 36. Each checkbox is linked to an ActionListener that updates the JTextArea to cooresponding with user input. (JDorm2.java) The second JDorm project varies slightly; I created a JTextArea to show the selected options dynamically. Any previous selections are cleared when a new choice is made, ensuring that you can only see the current option.
+
+
 # Inheritance & Interface
 ## [Inheritance.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/inheritance.java)
 ## [Inheritance2.java](https://github.com/n1t5ua5/pbsc/blob/main/javaProjects/inheritance2.java)
