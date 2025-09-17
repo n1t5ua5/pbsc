@@ -1,38 +1,40 @@
-# Develop a software solution for a movie theater that automates the
-# calculation of ticket prices based on the customer's age and the
-# time of day. The program should interactively prompt users to
-# enter their age and the movie time (matinee or evening) and
+# Develop a software solution for a them park that automates the
+# calculation of ticket prices based on the customer's age. The
+# program should interactively prompt users to enter their age &
 # apply appropriate discounts according to the following guidelines:
 
-# Matinee Show (before 5:00 PM):
-# Children under 12 years old: Tickets are $8.
-# Adults aged 12 and older: Tickets are $12.
-# Evening Show (5:00 PM and later):
-# Children under 12 years old: Tickets are $10.
-# Adults aged 12 to 64 years old: Tickets are $15.
-# Seniors aged 65 years and older: A special price of $10 applies.
+# Children under 5 years old: Ticket = $0
+# Children aged 5 to 18 years old: Ticket = $20
+# Adults aged 18 - 54 years old: Ticket = $60
+# Seniors aged 55 years and older: Ticket = $50
 
 # Your task is to design and implement a Python program that efficiently
-# determines the ticket price based on the user's input age and showtime.
-# This exercise will familiarize you with nested conditional statements
-# and user input handling in programming, essential skills for
-# building practical applications.
+# determines the ticket price based on the user's input age. This exercise
+# will familiarize you with conditional statements & user input handling
+# in programming, essential skills for building practical applications.
 
-# Step 1. Create age & showtime variables through user input
-# Step 2. Apply discount to user input.
-# Step 3. Display the new information.
+# LINK: https://youtu.be/Zp5MuPOtsSY?si=p6DUdl7aAavSZh9o
+
+# Step 1. Create age variable through user input.
+# Step 2. Calculate costs depending on user input.
+# Step 3. Display the new information/costs w discounts.
 
 age = int(input('Enter user age: '))
-showtimes = int(input('Enter 1 for Matinee or 2 for Evening: '))
-if showtimes == 1:
-    if age >= 12:
-        print('One adult matinee ticket purchased for $12!')
-    else:
-        print('One youth matinee ticket purchased for $8!')
+# age variable accepts integers from user input
+
+if age < 5:
+    # conditional statement "if" set for user under age 5
+    print('Admission costs $0 - FREE!')
+    # costs are displayed for the user
+elif age <= 18:
+    # conditionalal statement "elif" set for user aged 5 - 18
+    print('Admission costs $20 please!')
+    # costs are displayed for the user
+elif age <= 54:
+    # conditionalal statement "elif" set for user aged 18 - 54
+    print('Admission costs $60 please!')
+    # costs are displayed for the user
 else:
-    if age < 12:
-        print('One youth evening ticket purchased for $10!')
-    elif age > 65:
-        print('One senior evening ticket purchased for $10!')
-    else:
-        print('One adult evening ticket purchased for $15!')
+    # conditional statement "else" set for others, i.e. 55+
+    print('Senior Discount Applied! Admission costs $50 please.')
+    # costs are displayed for the user
