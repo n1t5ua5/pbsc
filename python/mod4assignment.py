@@ -36,4 +36,3 @@ else:
         print('One senior evening ticket purchased for $10!')
     else:
         print('One adult evening ticket purchased for $15!')
-
