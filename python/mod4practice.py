@@ -71,15 +71,3 @@
 #     print("b")
 # else:
 #     print("c")
-
-
-age = int(input('Enter user age: '))
-
-if age < 5:
-    print('Admission costs $0 - FREE!')
-elif age <= 18:
-    print('Admission costs $20 please!')
-elif age <= 54:
-    print('Admission costs $60 please!')
-else:
-    print('Senior Discount Applied! Admission costs $50 please.')
