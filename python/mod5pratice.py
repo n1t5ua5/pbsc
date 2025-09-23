@@ -50,3 +50,35 @@ GPA = float(input("What is your GPA? "))
 while GPA < 0 or GPA > 4.00:
     GPA = float(input("Invalid GPA. Please enter a valid GPA. "))
 print("Thank you.")
+
+
+# Module 5 Assignment Prep
+
+# Write a Python program that determines whether a user is approved for a car loan based on their credit history length, monthly expenses, and monthly income. To approve the user, the program must first verify that the information being entered is valid. Your loops must be used in these scenarios to check the validity of the information:
+
+# If the credit history length (in years) is less than 1 or greater than 50, prompt the user to re-enter it until a valid length within this range is provided.
+
+# If the monthly expenses are less than $0, they cannot be accepted because negative expenses are not possible. Prompt the user to enter a valid amount.
+
+# If the entered monthly income is less than $0, it is invalid because a negative income is not permissible. Prompt the user again to enter a valid income.
+
+# Your program should specify the nature of invalid credit history entries, indicating whether they are too high or too low. For example, if a length of 0 is entered, the program should indicate that it is too low; if 60 is entered, it should indicate that it is too high.
+
+# Once these values are all accepted and valid, your program should now utilize an if statement to determine if the user is approved for the loan. The user is approved if:
+
+# Credit history length is 5 years or more.
+
+# Monthly expenses are $1,500 or less.
+
+# Monthly income is $2,500 or more.
+
+# Sample console:
+
+# >>How many years is your credit history? 0
+# >>Invalid credit history. This length is too low. Please enter a valid length. 55
+# >>Invalid credit history. This length is too high. Please enter a valid length. 7
+# >>What are your total monthly expenses? -100
+# >>Your monthly expenses cannot be less than 0. Please enter a valid amount. 1000
+# >>What is your monthly income? -50
+# >>Your monthly income cannot be negative. Please enter a valid income. 3000
+# >>Based on the information you entered, you are approved for the loan.
