@@ -41,7 +41,7 @@ while yearly_salary < 0:
 if credit_score > 400 and credit_score < 850 and debt_amount > 0 and yearly_salary > 60000:
     print("Congratulations, your application has been approved!")
 else:
-    print("Unfortunately, your application has not been approved, please try again.")
+    print("Unfortunately, your application was not approved, please try again.")
 
 # Sample console:
 # >>What is your credit score? 890
