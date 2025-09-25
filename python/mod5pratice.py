@@ -142,3 +142,21 @@
 #     num = int(input("Enter a # between 1 - 10: "))
 
 # print(f"Your number is {num}!")
+
+
+# Mod 5 Discussion Assignment Video: Difference Between For Loops & While Loops
+# https://youtu.be/g1AFlLhgMR8?si=GDUwlqEKlTjj5xRo
+
+# for i in range(9):
+#     print(i)
+# no need to initialize the loop variable
+# the loop variable will be automatically updated
+# used when the # of iterations are known beforehand
+
+# i = 0
+# while i < 9:
+#     print(i)
+#     i += 1
+# all variables in the condition must be defined & initialized
+# all updates must be explicitly stated
+# the number of iterations is unknown
