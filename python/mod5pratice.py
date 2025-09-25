@@ -75,26 +75,26 @@
 # Monthly expenses are $1,500 or less.
 # Monthly income is $2,500 or more.
 
-credit_history = float(input("Enter credit history length: "))
-monthly_expenses = float(input("Enter monthly expenses: "))
-monthly_income = float(input("Enter monthly income: "))
+# credit_history = float(input("Enter credit history length: "))
+# monthly_expenses = float(input("Enter monthly expenses: "))
+# monthly_income = float(input("Enter monthly income: "))
 
-while credit_history < 1 or credit_history > 50:
-    if credit_history < 1:
-        credit_history = float(input("Credit history length is too short, must be at least 1 year: "))
-    if credit_history > 50:
-        credit_history = float(input("Credit history length is too long, must be no more than 50 years: "))
+# while credit_history < 1 or credit_history > 50:
+#     if credit_history < 1:
+#         credit_history = float(input("Credit history length is too short, must be at least 1 year: "))
+#     if credit_history > 50:
+#         credit_history = float(input("Credit history length is too long, must be no more than 50 years: "))
 
-while monthly_expenses < 0:
-    monthly_expenses = float(input("Monthly expenses cannot be less than zero, enter new expense total: "))
+# while monthly_expenses < 0:
+#     monthly_expenses = float(input("Monthly expenses cannot be less than zero, enter new expense total: "))
 
-while monthly_income < 0:
-    monthly_income = float(input("Monthly income cannot be less than zero, enter new income total: "))
+# while monthly_income < 0:
+#     monthly_income = float(input("Monthly income cannot be less than zero, enter new income total: "))
 
-if credit_history >= 5 and monthly_expenses <= 1500 and monthly_income >= 2500:
-    print("Congratulations, your application has been approved!")
-else:
-    print("Unfortunately, your credit application was not approved, please try again next year.")
+# if credit_history >= 5 and monthly_expenses <= 1500 and monthly_income >= 2500:
+#     print("Congratulations, your application has been approved!")
+# else:
+#     print("Unfortunately, your credit application was not approved, please try again next year.")
 
 # Sample console:
 
@@ -106,3 +106,39 @@ else:
 # >>What is your monthly income? -50
 # >>Your monthly income cannot be negative. Please enter a valid income. 3000
 # >>Based on the information you entered, you are approved for the loan.
+
+
+# Module 5 Assignment Practice Video: While Loops in Python are Easy.
+# https://youtu.be/rRTjPnVooxE?si=LWv3-CYCkjmPxhr-
+
+# while loop = execute some code WHILE some condition remains true
+
+# name = input("Enter your name.")
+
+# while name == "":
+#     print("You did not enter your name")
+#     name = input("Enter your name: ")
+# print(f"Hello {name}")
+
+# age = int(input("Enter your age: "))
+
+# while age < 0:
+#     print("Age can't be negative")
+#     age = int(input("Enter your age: "))
+# print(f"You are {age} years old ")
+
+# food = input("Enter a food you like (q to quit): ")
+
+# while not food == "q":
+#     print(f"You like {food}!")
+#     food = input("Enter another food you like (q to quit): ")
+
+# print("Bye!")
+
+# num = int(input("Enter a # between 1 - 10: "))
+
+# while num < 1 or num > 10:
+#     print(f"{num} is not valid.")
+#     num = int(input("Enter a # between 1 - 10: "))
+
+# print(f"Your number is {num}!")
