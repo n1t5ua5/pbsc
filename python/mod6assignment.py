@@ -14,6 +14,20 @@
 # $1.00 USD --> $1.37 Canadian Dollar
 # (Values are based as of August 2024)
 
+# def pound_converter(dollar_amount):
+#     return dollar_amount * 0.77
+
+# def yen_converter(dollar_amount):
+#     return dollar_amount * 157.50
+
+# def canadian_converter(dollar_amount):
+#     return dollar_amount * 1.37
+
+# dollar_amount = float(input("Please enter a currency amount in U.S. dollars: "))
+# print(pound_converter(dollar_amount))
+# print(yen_converter(dollar_amount))
+# print(canadian_converter(dollar_amount))
+
 # Assignment 2.
 
 # Create a program that uses a function to calculate the gross pay for
@@ -25,3 +39,15 @@
 # regular hours is the hourly rate, and any hours worked beyond 40 hours are
 # paid at a 1.5x rate of the regular hourly pay; it should then return the
 # total gross pay when called within the main program.
+
+def calculate_gross_pay(hours_worked=0, hourly_rate=100.00, bonus_rate=1.5):
+    if hours_worked > 40:
+        print("Congratulations, you're getting a bonus for working overtime!")
+        return hours_worked * hourly_rate * bonus_rate
+    else:
+        print("Sorry, you didn't qualify for a bonus amount, but you still got paid!")
+        return hourly_rate * hours_worked
+
+employee_total = float(input("Please input the number of hours you worked: "))
+total_hours_worked = calculate_gross_pay(employee_total)
+print("Your gross pay for this week:", total_hours_worked)
