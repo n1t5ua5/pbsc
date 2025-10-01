@@ -48,6 +48,7 @@ def calculate_gross_pay(hours_worked=0, hourly_rate=100.00, bonus_rate=1.5):
         print("Sorry, you didn't qualify for a bonus amount, but you still got paid!")
         return hourly_rate * hours_worked
 
+
 employee_total = float(input("Please input the number of hours you worked: "))
 total_hours_worked = calculate_gross_pay(employee_total)
 print("Your gross pay for this week:", total_hours_worked)
