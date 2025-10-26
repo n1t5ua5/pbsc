@@ -26,3 +26,33 @@
 # >>What is your withdrawal amount? 1300
 # >>Insufficient Funds.
 # >>Hello Devin. Your current Balance is $1,200.
+
+
+class BankSystem:
+    """
+        The BankSystem class performs basic banking functions like...
+        Withdrawing money, depositing money & displaying customer data!
+        Attributes: customer_name & starting_balance.
+    """
+
+    def __init__(self, name, balance):
+        self.customer_name = name
+        self.starting_balance = balance
+
+    def deposit(self, total):
+        self.starting_balance = self.starting_balance + total
+
+    def withdraw(self, total):
+        if total > self.starting_balance:
+            print("We regret to inform you that you have insufficient funds.")
+        else:
+            self.starting_balance = self.starting_balance - total
+
+    def display_balance(self):
+        print("Good day", self.customer_name)
+        print("Your total balance is $", self.starting_balance)
+
+
+b1 = BankSystem("Landon", 1000)
+b1.withdraw(10000)
+b1.display_balance()
