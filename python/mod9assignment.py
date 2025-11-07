@@ -43,4 +43,4 @@ except Exception as e:
     print(f"\nUh oh... something's not right here... {e}")
 
 else:
-    print(f"Alrighty then! The updated number of cars available is: {updatedCount}")
+    print(f"Alrighty then! The updated number of cars available is now: {updatedCount}")
