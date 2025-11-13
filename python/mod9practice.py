@@ -33,33 +33,59 @@
 # except blocks execute & also include one block to catch unexpected errors
 # if no errors persist, the program displays a message & the new updated license count
 
-try:
-    try:
-        licenseCount = int(input('Enter the total number of licenses available: '))
-        teamCount = int(input('Enter the total number of licenses your team needs: '))
+# try:
+#     try:
+#         licenseCount = int(input('Enter the total number of licenses available: '))
+#         teamCount = int(input('Enter the total number of licenses your team needs: '))
 
-    except ValueError:
-        raise IndexError('Error: You must only enter an integer, please try again.')
+#     except ValueError:
+#         raise IndexError('Error: You must only enter an integer, please try again.')
 
-    if licenseCount == 0:
-        raise ZeroDivisionError('Error: You must enter an integer that is greater than 0.')
+#     if licenseCount == 0:
+#         raise ZeroDivisionError('Error: You must enter an integer that is greater than 0.')
 
-    if teamCount > licenseCount:
-        raise KeyError('Error: Team count must not be greater than license count.')
+#     if teamCount > licenseCount:
+#         raise KeyError('Error: Team count must not be greater than license count.')
 
-    updatedCount = licenseCount - teamCount
+#     updatedCount = licenseCount - teamCount
 
-except ZeroDivisionError as e:
-    print(f"\nError: {e}")
+# except ZeroDivisionError as e:
+#     print(f"\nError: {e}")
 
-except IndexError as e:
-    print(f"\nError: {e}")
+# except IndexError as e:
+#     print(f"\nError: {e}")
 
-except KeyError as e:
-    print(f"\nError: {e}")
+# except KeyError as e:
+#     print(f"\nError: {e}")
 
-except Exception as e:
-    print(f"\nUh oh... something's not right here...: {e}")
+# except Exception as e:
+#     print(f"\nUh oh... something's not right here...: {e}")
 
-else:
-    print(f"Success! New amount of licenses remaining: {updatedCount}")
+# else:
+#     print(f"Success! New amount of licenses remaining: {updatedCount}")
+
+
+
+# Determine the summation of all positive integers ranging from $1$ to $n$ using recursion.
+# To achieve this, implement a recursive function that adds the current integer to the sum of
+# the subsequent integers until $1$ is reached (counting down) or $n$ is reached (counting up).
+# You must define the problem using the downward recursion approach
+# (from $n$ down to $1$):$$S(n) = n + S(n-1)
+# $$Sample Console:>>Enter a positive integer:
+# 5>>The sum of all integers from 1 to 5 is: 15
+
+# implement function, recursion, 
+# add and int
+
+def recursion(n): 
+    if n <= 1:
+        return n
+    else:
+        return n + recursion(n-1)
+
+try: 
+    n = int(input("Enter any integer: "))
+    print(recursion(n))
+
+except ValueError:
+    print("Please enter only whole numbers, thank you.")
