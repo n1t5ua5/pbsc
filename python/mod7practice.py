@@ -67,3 +67,31 @@
 # print(f"The total number of names entered are: {count}")
 # print(f"The name that comes first alphabetically is: {first_alphabetical}")
 # print(f"The name that comes last alphabetically is: {last_alphabetical}")
+
+
+# Create a hardware inventory system that asks the user to enter the total
+# number of software licenses available and the number of licenses they
+# want to assign to a team. The program should then calculate how
+# many licenses will remain unassigned.
+# Your program should use try-except blocks to handle potential exceptions
+# that may arise. Your try-except blocks should be able to handle:
+
+# If the user enters zero as the number of total available licenses, raise a
+# ZeroDivisionError with a clear message to notify the user of the issue. If
+# the user inputs a value with the incorrect data type for the available
+# licenses or the number of licenses they wish to assign, raise an IndexError
+# with a clear message to inform the user of the issue. If the user requests
+# more licenses to assign than what is available, raise a KeyError with a
+# message to inform the user of the mistake. Make sure to include an "except
+# Exception:" block to catch any unexpected errors that might happen. This
+# program should handle these errors effectively and give clear instructions
+# to the user. If the user provides valid numbers for both the total number of
+# licenses and the number of licenses they want to assign, and no errors
+# occur, the program should correctly calculate and display the number of
+# licenses remaining after the assignment under the except block.
+
+# Sample Console: (Below entails a situation of KeyError exception handling.)
+# Enter the total number of software licenses available:
+# 10 Enter the number of licenses to assign:
+# 15 Error:
+# Assignment cannot exceed the total number of available licenses.

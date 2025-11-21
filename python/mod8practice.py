@@ -238,3 +238,15 @@
 
 
 # Math.pr()
+
+
+# define variables
+# ask user via input() method to enter total # of software licenses
+# plus, how many they might need for a team
+# program calculates data based on input
+# try block executes to ask the questions below
+# if user enters zero, raise zerodivision error
+# if user enter wrong data type, raise indexerror
+# if user enters more requests than is available, raise keyerror
+# include except Exception block to catch unexpected errors
+# program displays the new correct data if there are no errors

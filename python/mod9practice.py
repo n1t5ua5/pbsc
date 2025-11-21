@@ -20,7 +20,7 @@
 # Assignment cannot exceed the total number of available licenses.
 # asks the user to enter total number of software licenses available + number of licenses for team
 # execute try-except-else code block
-# try block executes which, 
+# try block executes which,
 # then except block handles three exceptions: ZeroDivisionError, IndexError, KeyError
 
 # input first try statement
@@ -65,7 +65,6 @@
 #     print(f"Success! New amount of licenses remaining: {updatedCount}")
 
 
-
 # Determine the summation of all positive integers ranging from $1$ to $n$ using recursion.
 # To achieve this, implement a recursive function that adds the current integer to the sum of
 # the subsequent integers until $1$ is reached (counting down) or $n$ is reached (counting up).
@@ -74,16 +73,16 @@
 # $$Sample Console:>>Enter a positive integer:
 # 5>>The sum of all integers from 1 to 5 is: 15
 
-# implement function, recursion, 
+# implement function, recursion,
 # add and int
 
-# def recursion(n): 
+# def recursion(n):
 #     if n <= 1:
 #         return n
 #     else:
 #         return n + recursion(n-1)
 
-# try: 
+# try:
 #     n = int(input("Enter any integer: "))
 #     print(recursion(n))
 
