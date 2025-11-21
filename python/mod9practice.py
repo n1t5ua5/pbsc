@@ -77,15 +77,15 @@
 # implement function, recursion, 
 # add and int
 
-def recursion(n): 
-    if n <= 1:
-        return n
-    else:
-        return n + recursion(n-1)
+# def recursion(n): 
+#     if n <= 1:
+#         return n
+#     else:
+#         return n + recursion(n-1)
 
-try: 
-    n = int(input("Enter any integer: "))
-    print(recursion(n))
+# try: 
+#     n = int(input("Enter any integer: "))
+#     print(recursion(n))
 
-except ValueError:
-    print("Please enter only whole numbers, thank you.")
+# except ValueError:
+#     print("Please enter only whole numbers, thank you.")
