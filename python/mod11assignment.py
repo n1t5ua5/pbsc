@@ -1,5 +1,6 @@
 # Module 11 Assignment: Utilizing Files in Python 📂
 # https://youtu.be/Uh2ebFW8OYM?si=RX_jApddSwlhEA1w
+# https://www.onlinegdb.com/KDZ_avKDI
 
 # Create a Python program that interacts with the user to collect 5 float numbers
 # representing GPAs of students. The program should validate each GPA to ensure
@@ -33,9 +34,9 @@ def graduate_calculator():
     """
     while True:
         try:
-            GPA = input("Please enter student's GPA: ")
+            GPA = float(input("Please enter student's GPA: "))
             graduate_list = float(GPA)
-            if 0 <= graduate_list <= 2.00:
+            if 0 <= graduate_list <= 4.00:
                 return graduate_list
             else:
                 print("Invalid GPA. Please try again.")
@@ -65,15 +66,15 @@ if __name__ == "__main__":
     for i in range(students):
         grade_figures = graduate_calculator()
 
-    if grade_figures >= gpa_threshold:
+        if grade_figures >= gpa_threshold:
 
-        student_name = input("Please enter the students name here: .")
+            student_name = input("What is this student's name? ")
 
-        full_grad_list.append(student_name)
+            full_grad_list.append(student_name)
 
-    else:
-        pass
+        else:
+            print("Noted. Thank you.")
 
-file_store(full_grad_list)
+    file_store(full_grad_list)
 
 print(f"Alrighty then! Here is the full list of graduates: {full_grad_list}.")
