@@ -1,7 +1,7 @@
 # 11/22/2025, Dialogue Update Complete, First Video Demo Rough Draft Ready 🍿
-# https://bit.ly/4oQACw1 
+# https://bit.ly/440uRTX 
 
-My PowerPoint presentation is starting to shape up into something worthwhile. Yesterday I finally finished writing the dialogue for my video demo & today I finished my first rough draft of the video demo itself. I sent it to my professor, & now I'm awaiting their feedback. After, I'm going to make one final take of my video demo before I upload it to YouTube, because I want to have it available with some of the other coding walk-through videos I have for my personal portfolio. Oh & before I forget, I used a program named OBS Studio to do all the screen capturing. 
+My PowerPoint presentation is starting to shape up into something worthwhile. Yesterday I finally finished writing the dialogue for my video demo & today I finished my first rough draft of the video demo itself. I sent it to my professor, & now I'm awaiting their feedback. After, I'm going to make one final take of my video demo before I upload it to YouTube, because I want to have it available with some of the other coding walk-through videos I have for my personal portfolio. The title of it is "Common Linux Admin Tasks & Commands. Oh & before I forget, I used a program named OBS Studio to do all the screen capturing. 
 
 
 # 11/20/2025, Final Project Rough Draft Almost Ready 🎥
