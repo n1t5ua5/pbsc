@@ -9,7 +9,7 @@ Functional requirements describe the specific operations taking place on a regul
 
 Yet, they can still come into conflict with one another, like sacrificing page load speed for the sake of only using high resolution images. Though different, using them together in the system design process equates to applications that are fully capable of growing when the appropriate metrics have been met because they provide context into not just the things that have occurred already, but for future events as well. This constant need to balance what the system does with how well it performs makes system design a complex process of trade-offs & priorities.
 
-Reference
+Reference.
 
 [1] GeeksForGeeks. (2020, April). Functional vs. Non Functional Requirements: https://www.geeksforgeeks.org/software-engineering/functional-vs-non-functional-requirements/
 
