@@ -1,20 +1,18 @@
-LINUX FUNDAMENTALS DISCUSSION POSTS: FALL 2025, PBSC
+## LINUX FUNDAMENTALS DISCUSSION POSTS: FALL 2025, PBSC
 
+## Question 1 - Proper Configuration of File & Directory Permissions:
 
-
-Question 1 - Proper Configuration of File & Directory Permissions
-
-1. Discuss the importance of properly configuring file & directory permissions on a Linux server.
+Discuss the importance of properly configuring file & directory permissions on a Linux server.
 
 Setting up file & directory permissions correctly from the beginning of a project is extremely important for keeping your files secure & organized. The permissions you have set ultimately determine who can read, write, or execute files. Without knowing the proper protocols beforehand, you risk giving someone else access to your information.
 
 2. Outline any security issues that you have encountered in the past as a result of using the default or less restrictive permissions on files or directories, or you might encounter in the future.
 
-Thankfully, I haven't had to deal with any serious security concerns regarding permissions myself, but now that I'm aware of the potential risks, I'm more cautious & deliberate about setting permissions correctly for any project in the command line. 
+Thankfully, I haven't had to deal with any serious security concerns regarding permissions myself, but now that I'm aware of the potential risks, I'm more cautious & deliberate about setting permissions correctly for any project in the command line.
 
-Question 2 - Managing Directory Tasks from Linux Command Line
+## Question 2 - Managing Directory Tasks from Linux Command Line:
 
-1. Discuss your thoughts about handling basic directory tasks from the Linux command line.
+Discuss your thoughts about handling basic directory tasks from the Linux command line.
 
 I'm confident in my ability to use essential commands, such as cd, ls, mkdir & pwd. However, I'm finding it more difficult to memorize the flags/options that follow them. This is probably because we use the flags less frequently than the commands. I researched online for another image with multiple flags in one place. Please feel free to take a copy for yourself [2].
 
@@ -30,19 +28,18 @@ references
 
 [3] Sotiris Kourouklis. (2024, April). Improve Your Productivity by Using More Terminal & Less Mouse. DEV.to: https://dev.to/sotergreco/improve-your-productivity-by-using-more-terminal-
 
+-----
+-----
 
+## Question 1 - Different Filesystem Experiences:
 
-
-Question 1 - Different Filesystem Experiences
-
-A) Discuss any experiences you may have with different filesystems. What are some of the reasons you might typically choose one filesystem over another? What Windows file systems do you typically use & why? If any?
+Discuss any experiences you may have with different filesystems. What are some of the reasons you might typically choose one filesystem over another? What Windows file systems do you typically use & why? If any?
 
 B) Why might one administrator choose one Linux filesystem over another? If you do not have any experiences, feel free to project or create a possible scenario to address the question.
 
 Imagining a world without a uniform filesystem structure is both scary & confusing! With hindsight, I guessed that a major reason why Linux didn't have one initially was probably because, for most programmers at the time of its inception (1991), there still wasn't a universal consensus about these sorts of architectural concepts that are commonplace nowadays. Or that most people choose one system over another, largely depending on user satisfaction from an intuitive layout at the bare minimum. But after doing some more reading & research, the original lack of a single "default" filesystem in Linux was largely due to ongoing technological advancement, not a lack of architectural consensus on how the filesystem should be laid out. One of the major standards that was adopted is the FileSystem Hierarchy Standard, or FHS for short. This provides for a uniform directory structure (i.e., /etc, /home, etc.) [1].
 
 When choosing which sort of filesystem to use for a project, a programmer's choice is generally made depending on the requirements of the server or storage [2]. On the surface, one of the bigger shortcomings of Linux is that, given its free-to-use nature, larger enterprises can't always rely on it for customer support because there is no inherent customer support feature, which would be a disaster in emergencies like a power outage. But nowadays, there are several paid Linux distributions that offer 24/7 customer support, like Red Hat Enterprise Linux (RHEL) [3].
-
 
 references.
 
@@ -52,14 +49,12 @@ references.
 
 [3] Red Hat, (2019). Red Hat Enterprise Linux Operating System via Redhat.com: https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux
 
+-----
+-----
 
+## Question 2 - Linux Installation Challenges:
 
-
-
-
-Question 2 - Linux Installation Challenges
-
-A) Discuss some of the problems that you may have encountered when attempting to install Linux in the past.
+Discuss some of the problems that you may have encountered when attempting to install Linux in the past.
 
 I don't have any personal hands-on experience in attempting to install Linux in the past or recently, I've only worked in virtual terminals before. But the biggest setback that's prevented me from using it is the lack of a real need to use it. With my previous experience working inside Windows PowerShell already & having them preinstalled on all the devices I currently use, I haven't needed to venture outside this realm yet. The only other tangible practice I have with Linux, is through using the terminal in GitHub to test the code I'm working on. But once again, no installation process is required. After learning more about the pros & cons of Linux from this class, I'd definitely be willing to give it a shot though! I don't feel nervous about attempting to try it either. One of the biggest setbacks I envision happening for me personally would be my lack of experience in using popular Linux specific terminal commands. Another setback that I've read about are bootloader issues, which are essentially complications stemming from the use of two systems on one device, like Windows & Linux together. 
 
@@ -67,39 +62,32 @@ B) What were some of the issues that you came across & how did you resolve them?
 
 The way I would go about resolving my lack of knowledge for particular Linux specific terminal commands would be first to search online for one or two commands that I could use which upon execution would display a pre-made list of default Linux specific terminal commands. After, I would search online for lists of Linux specific commands that have been curated by other Linux users online. I can't speak decisively about any Linux hardware support advancements in recent years, I imagine there are a greater amount of resources available presently, as opposed to five or even ten years ago. With more kernel updates & automated driver tools nowadays, it'd be hard to imagine the support aspect digressing over time. 
 
- 
-
 References.
 
 [1] Kili, A. (N.D.). How to Determine & Fix Boot Issues in Linux via tecmint.com: https://www.tecmint.com/find-and-fix-linux-boot-issues/
 [2] Eckert, J. (2015). Linux+ & LPIC-1 Guide to Linux Certification via Cengage Learning.
 [3] The Linux Kernel Archives. (2019) via kernel.org: https://www.kernel.org/
 
+-----
+-----
 
+## Question 1 - Programming & Scripting:
 
-
-
-
-Question 1 - Programming & Scripting
-
-A) Discuss any personal experiences with programming & whether scripting is something that you might consider using regularly. If you have not been entirely successful with programming & scripting, what are some of the elements that you find most challenging? If you do not have any experiences, feel free to project or create a possible scenario to address the question.
+Discuss any personal experiences with programming & whether scripting is something that you might consider using regularly. If you have not been entirely successful with programming & scripting, what are some of the elements that you find most challenging? If you do not have any experiences, feel free to project or create a possible scenario to address the question.
 
 I've been using scripting languages to help organize the coding files I've been working with for over two years now & I can't imagine it any other way. When I originally learned how to code three years ago, I was taught to manually import files into programs like Pair, which served as my host & in turn published them online. While this method is effective & accomplishes deployment at a relatively easy level, you can't make any dynamic changes outside of manually moving files from one place to another. With scripting, I learned how to keep things organized from the start, but I also successfully learned how to navigate in & out of different directories, make new directories or files & a lot more. Any commands or actions that I'm unfamiliar with, I simply look them up online; GeeksforGeeks has served as a constant go-to for these sorts of things
 
 While I haven't experienced any major obstacles from scripting on my own, programming has grown to be increasingly challenging for me. This mainly stems from my academic weak spot, math. I understand the code I read for the most part (at a novice level), but writing it out from scratch is a lot more challenging than I had anticipated. However, with regular practice and hands-on coding with a tutor, some of the unfamiliarity is beginning to wane, thankfully. My only regret is not working with a tutor sooner. I would challenge any other computer programming major in this class to do the same. Even if you're doing well in this class or any other computer classes you're taking currently, any extra hands-on practice will cumulatively help you in the long run. It works the same way with learning any natural language, like Spanish or French.
-
- 
 
 References.
 [1] GeeksforGeeks, (2016, March). What’s the Difference Between Scripting & Programming Languages? via geeksforgeeks.com: https://www.geeksforgeeks.org/javascript/whats-the-difference-between-scripting-and-programming-languages/
 [2] Feldman, J. (2023, April). What is Scripting? via coursereport.com: https://www.coursereport.com/blog/a-beginners-guide-to-scripting-with-flatiron-school
 [3] Eckert, J. (2015). Linux+ & LPIC-1 Guide to Linux Certification (5th ed.) via Cengage Learning.
 
+-----
+-----
 
-
-
-
-1) "Linux & Windows Boot Loader: Discuss whether you would prefer to use a Linux or Windows boot loader on their home OS & explain their reasons why."
+## 1) Linux & Windows Boot Loader: Discuss whether you would prefer to use a Linux or Windows boot loader on their home OS & explain their reasons why."
 
 I would prefer to use a Windows boot loader, not because of personal preference necessarily, but more so just from having prior experience using Windows over Linux. I might be wrong, but I feel like most people would choose using the same reasoning. After watching both of the videos above, I don't think using Linux boot loaders are that much different overall. While variations in syntax are clear, like with Linux' 'GRUB' boot loader versus Windows 'bdcedit' boat loader, the more I learn about Linux the more I feel inclined to choosing it for my own personal use.
 
@@ -110,12 +98,10 @@ References.
 [2] Lenovo. (2021). What is Dual Boot & How to Dual Boot Windows & Linux via lenovo.com: https://www.lenovo.com/us/en/glossary/what-is-dual-boot/?orgRef=https%253A%252F%252Fwww.google.com%252F&srsltid=AfmBOorz2Of6ziWmzCm3x1Fx7ehqhARHB5ieZIV87XoZaZRNQAll-EpC 
 [3] Cengage Learning. (2016). LearningCompTIA Linux + Guide to Linux Certification (5th ed.).
 
+-----
+-----
 
-
-
-
-
-Question 1 - Common Administrative Tasks
+## Question 1 - Common Administrative Tasks:
 
 Discuss some of the common administrative tasks that you think could probably be automated by using either the at or cron daemons. On average, how much time do you think an administrator could save compared to carrying out similar tasks on a Windows system?
 
@@ -128,11 +114,10 @@ References.
 [2] RedHat. (2021). 17 Linux Commands Every sysadmin Should Know via redhat.com: https://www.redhat.com/en/blog/linux-commands-to-know
 [3] Yellow Tail Teach. (2025, September). What are Linux Admin Job Responsibilities? via yellowtail.tech: https://yellowtail.tech/article/what-are-the-linux-admin-responsibilities/
 
+-----
+-----
 
-
-
-
-Question 1 - Log Files on a Linux System
+## Question 1 - Log Files on a Linux System:
 
 Discuss the various log files found on a Linux system. Based on your own experiences, how often do you feel you would check these files & how vigilant do you think you would be about the process?
 
@@ -145,12 +130,12 @@ References.
 [2] RedHat. (2022). How to Find & Interpret System Log Files on Linux via Redhat.com: https://www.redhat.com/en/blog/rsyslog-systemd-journald-linux-logs
 [3] Cengage Learning. (2016). LearningCompTIA Linux + Guide to Linux Certification (5th ed.).
 
+-----
+-----
 
+## 2. Network Environments - Linux vs Windows:
 
-
-
-
-2. Based on the network environments you use (either Linux or Windows), please find any article related to the network environment you use. Discuss the benefits of using the environment, at least 2 problems, & solutions for using & managing the environment. Feel free to cite the article(s) at least 2 times to support your critical analysis.
+Based on the network environments you use (either Linux or Windows), please find any article related to the network environment you use. Discuss the benefits of using the environment, at least 2 problems, & solutions for using & managing the environment. Feel free to cite the article(s) at least 2 times to support your critical analysis.
 
 For most of my life, I've exclusively worked inside Windows environments, but I've been trying to work inside a Linux virtual environment recently after my Python tutor showed me how to use Copespaces inside GitHub. So, apart from this class, that's the only other true experience I have working hands-on with Linux systems. In the end, they will both deliver the same results, but user preference on how they get to their end destination can vary greatly. The most common problem Windows users face is that they can leave themselves vulnerable without realizing it by using older commands, such as xcopy, over updated ones that maintain data integrity. This is one reason why Linux is often viewed as more secure than Windows, which is generally true. In response, you can also use file utilities as a security measure, such as Robocopy, which offers better ways to handle incoming errors. One major benefit to working inside a Windows network environment is that it's compatible with almost any program you could think of.
 
@@ -163,12 +148,12 @@ References.
 Hostman. (2025, September). Linux vs Windows: Comparison, Pros & Cons. | Hostman LTD via hostman.com: https://hostman.com/blog/linux-vs-windows/ 
 [3]  Cengage Learning. (2016). LearningCompTIA Linux + Guide to Linux Certification (5th ed.).
 
+-----
+-----
 
+## 2. Working with Databases:
 
-
-
-
-2. Discuss working with databases. Define relational database. Do you have experience with relational databases? What are some of the pitfalls that can be encountered when working with relational databases?
+Discuss working with databases. Define relational database. Do you have experience with relational databases? What are some of the pitfalls that can be encountered when working with relational databases?
 
 In the most simple of terms, relational databases are digital databases that organize & store data inside of tables. I have experience working with a few different types of databases online, although I don't have a ton of experience working with any of them in particular. I've used SQL Lite while practicing inside the Codecademy app & I built a few small non-commercial software apps that relied on MySQL & PostGreSQL databases. Out of all of them, I probably have the most experience working inside of a non-relational NoSQL database, MongoDB, when I helped build a soccer league monitor for a group project last year.
 
@@ -179,12 +164,10 @@ References.
 [2] Codecademy. (N.D.). What is a Relational Database? | via codecademy.com: https://www.codecademy.com/article/relational-database-rdbms
 [3] Cengage Learning. (2016). LearningCompTIA Linux + Guide to Linux Certification (5th ed.).
 
+-----
+-----
 
-
-
-
-
-Question 2 - Costs and Payoffs of Implementing Security Measures
+## Question 2 - Costs and Payoffs of Implementing Security Measures:
 
 Discuss the costs and payoffs of implementing all the security measures mentioned in this section. Which security measures do you think is of the greatest importance? Which seem to have a greater cost (in terms of convenience or time requirements) than benefit (in terms of security provided)?
 

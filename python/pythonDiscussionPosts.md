@@ -1,7 +1,6 @@
-PYTHON DISCUSSION POSTS: FALL 2025, PBSC
+## PYTHON DISCUSSION POSTS: FALL 2025, PBSC
 
-
-How can learning about variables & user input in Python prepare you for more complex programming tasks and projects in the future?
+## How can learning about variables & user input in Python prepare you for more complex programming tasks and projects in the future?
 
 Without having a solid foundation built upon these sorts of fundamental lessons in Python programming, like we just went over with user input(), it becomes difficult to extrapolate on topics that are more logic-oriented, such as creating for loops & while loops which allow us to iterate through what we create & 'multitask' at the micro-level. As someone who has already been presented with more complex lessons due to previous exposure to Python programming, I'm grateful to be revisiting these things, not because it's easy versus hard, but because now I have the chance to fully digest some of the things I brushed over before. My advice to any of my classmates, even if you might be more experienced than I, take the time to fully explore these 'code-along' videos. Take advantage of being able to pause or go back to something that you don't fully understand.
 
@@ -11,10 +10,11 @@ REFERENCES
 
 Felienne Hermans, (2021). YouTube | GOTO Conferences: https://www.youtube.com/watch?si=XWxHvXbB64rzSrB8&v=58LeSsn_nSQ&feature=youtu.be
 
+-----
+-----
 
+## Discuss the advantages & disadvantages of using for loops versus while loops in different programming contexts. When would you choose one over the other?
 
-
-Discuss the advantages & disadvantages of using for loops versus while loops in different programming contexts. When would you choose one over the other?
 For loops & while loops are both programming constructs used by almost every modern programming language. However, in Python, they vary significantly, even though they accomplish a similar task: iteration. For loops are mainly used when you already know how many iterations there will be inside the loop, whereas in while loops, all variables in the condition must be defined beforehand. One more important distinction is that a for loop is generally 'safer' to use because it automatically ends once the conditions are met. With while loops, you must always manually ensure the stopping condition is eventually met, or the program will run forever, causing an infinite loop, which is to be avoided at all costs [1]. Below are some examples similar to the ones shown in the discussion video we just watched for this module. 
 
 # For Loop Example ⬇️
@@ -33,13 +33,13 @@ Considering their lack of initialization, for loops are best used when you want 
 
 references
 
-[1] Molyneaux, B. (2024). Comparing Python’s For & While Loops. Python Snacks: https://www.pythonsnacks.com/p/python-for-loop-while-loopLinks 
+[1] Molyneaux, B. (2024). Comparing Python's For & While Loops. Python Snacks: https://www.pythonsnacks.com/p/python-for-loop-while-loopLinks
 
+-----
+-----
 
+## How do you ensure that your functions are well-documented & easy for others to understand & use? What practices do you follow?
 
-
-
-How do you ensure that your functions are well-documented & easy for others to understand & use? What practices do you follow?
 As I've grown as a programmer, the need for constant technical documentation has become a mandatory component for any program I create. Though it's ultimately up to each individual to read/use documentation, if it is, it can provide users with evergreen context, not just for others, but also for yourself, so you can go back & remember why you did exactly what you did. Using clear naming conventions also helps everyone understand what is happening in the code being interpreted. If I don't already have a READ.MD file or another markdown file associated with a big project I'm working on to journal my progress, I will at least leave comments underneath certain lines or functions to document why I wrote what I did or how I came to the conclusion I came to.
 
 Another way to accomplish writing comments in Python specifically is by using docstrings. Creating docstrings directly beneath function declarations works just like comments in any programming language, but the syntax is a little different. Simply use three double quotes like so, """, followed by whatever description of the function you've created in natural language. Lastly, close out the docstring by using another set of three double quotes, just like before, """. A proper docstring explicitly lists the Parameters (Arguments), the Return value, any Exceptions (Raises) & often includes real-life examples. Below is a visual example of a basic docstring.
@@ -63,11 +63,10 @@ References.
 
 [2] Programiz, (n.d.). Python Docstrings (With Examples) via programiz.com: https://www.programiz.com/python-programming/docstrings
 
+-----
+-----
 
-
-
-
-3. Share your thoughts on how understanding these fundamental data structures in Python prepares you for more advanced programming concepts & projects.
+## 3. Share your thoughts on how understanding these fundamental data structures in Python prepares you for more advanced programming concepts & projects.
 
 Understanding Python's core data structures such as lists, sets, tuples & dictionaries, is essential because without the ability to store & alter data in different ways, we would be denying ourselves the ability to utilize Python for what it truly is: a dynamic, object-oriented programming language. For example, a core principle to understand is mutability: whether the data we're working with needs to be fixed for stability, or flexible for constant changes. Mutable objects allow its contents to be updated or changed while immutable objects do not allow the data stored inside them to be altered. In short: lists & dictionaries are mutable, while tuples are immutable.
 
@@ -76,10 +75,10 @@ A Python set is a mutable data structure that inherently stores only unique elem
 References.
 [1] Bader, D. (n.d.). Common Python Data Structures | Real Python via realpython.com: https://realpython.com/python-data-structures/
 
+-----
+-----
 
-
-
-2. Why is "code reusability" significant in object-oriented programming? How do classes & inheritance contribute to reusable code?
+## 2. Why is "code reusability" significant in object-oriented programming? How do classes & inheritance contribute to reusable code?
 
 This feature is so crucial to Python's useful nature because most importantly it allows users to create code that is modular, which means that we are able to use classes which inherit attributes from other classes. I appreciate how the person in the video had us start off by creating two different files to work: one for the program & one for the class we were using. This reminded me of making similar car projects in a coding course I took the other year. Every single feature had it's own class, or module, which enabled myself & the people I was working with to reuse this code in different ways, like accepting input from any sort of user that read our brief instructional manual. 
 
@@ -88,13 +87,12 @@ Ultimately, code reusability significantly reduces the time it takes to develop 
 References.
 [1] W3Schools. (2019). Python Inheritance via w3schools.com: https://www.w3schools.com/python/python_inheritance.asp
 
-[2] Python Software Foundation. (n.d.). Classes, Objects & Scope via docs.python.org: https://docs.python.org/3/tutorial/classes.html 
+[2] Python Software Foundation. (n.d.). Classes, Objects & Scope via docs.python.org: https://docs.python.org/3/tutorial/classes.html
 
+-----
+-----
 
-
-
-
-2. Explain the concept of try-except blocks in Python. How do they help in managing & responding to errors?
+## 2. Explain the concept of try-except blocks in Python. How do they help in managing & responding to errors?
 
 Try-except blocks are the easiest way we can prepare for runtime failures. If runtime errors are encountered, the program will then execute a different set of instructions to handle those exceptions that our code encounters. This is one of the fundamental built-in tools for the Python programming language & helps manage the errors we encounter in a controlled & consistent manner.
 
@@ -106,12 +104,10 @@ References.
 [1] W3 Schools. (2024). Python Try Except via w3schools.com: https://www.w3schools.com/python/python_try_except.asp
 [2] Hunner, T. (2022, January). Python’s Try-Except Blocks | Python Morsels via pythonmorsels.com: https://www.pythonmorsels.com/how-to-catch-an-exception-in-python/
 
+-----
+-----
 
-
-
-
-
-What initial thoughts or perceptions do you have about recursion in programming? How does it compare to iterative methods?
+## What initial thoughts or perceptions do you have about recursion in programming? How does it compare to iterative methods?
 
 My initial thoughts about recursion are well-received. I think that I probably won't use recursion as often as some of the iterative methods we have already learned, such as for or while loops, but knowing how to use recursion in the right situation is necessary for future use as a software developer. The iterative methods we learned about previously appear to be more frequently used in successful Python programs, based on my observations so far, but I could be wrong. Maybe this stems from users believing that if not handled correctly, having functions call themselves infinitely is an easier mistake to make as opposed to creating an endless for loop.
 
@@ -121,11 +117,10 @@ References.
 [1] Educative. (2024) What is the Difference Between Recursion & Iteration? | via educative.com: https://www.educative.io/blog/recursion-vs-iteration
 [2] GeeksforGeeks. (2018). The Difference between Recursion & Iteration. | via geeksforgeeks.com: https://www.geeksforgeeks.org/dsa/difference-between-recursion-and-iteration/
 
+-----
+-----
 
-
-
-
-2. Discuss the different modes (read, write, append) used when opening files in Python. When would you choose each mode & what are the implications of using them?
+## 2. Discuss the different modes (read, write, append) used when opening files in Python. When would you choose each mode & what are the implications of using them?
 
 There are many different ways you can interact with files in Python but the read ('r'), write ('w') & append ('a') modes are some of the most frequently used. That's because they each have distinct purposes that are essential to any software developer due to their ability to directly impact any Python file. The ability to read files through the 'r' mode might be the most important, without this mode you would be unable to view or extract the contents of any file. You would choose this mode when you want view the contents of any file & if the file you've specified doesn't exist, the 'FileNotFound' error will be raised.
 
@@ -135,11 +130,10 @@ References.
 [1] GeeksForGeeks. (2024, April). File Modes in Python. | via geeksforgeeks.com: https://www.geeksforgeeks.org/python/file-mode-in-python/ 
 [2] Hunner, T. (2022, May). File Modes in Python. | Python Morsels | via pythonmorsels.com: https://www.pythonmorsels.com/file-modes-in-python/
 
+-----
+-----
 
-
-
-
-3. How does creating custom modules benefit your coding practice? What are some scenarios where custom modules have significantly improved your workflow?
+## 3. How does creating custom modules benefit your coding practice? What are some scenarios where custom modules have significantly improved your workflow?
 
 Readability is one of the most undervalued skills in coding, but it shines brightest with Python because it's syntax rules forces users to conform to that standard. Modular code improves on the concept of readability one step further though, because it breaks our code into sections, instead of slopping everything together inside of one file. While that might not seem as necessary in the beginning stages of learning how to code, as we progress the programs we create & manage grow in complexity. Imagine one program where there are over a million lines code, which would you prefer to work with: one file containing all of that data, or a similar program where the code is broken down into 10,000 lines of code per file? I can't imagine any circumstances where someone would choose the first option over the second. 
 
