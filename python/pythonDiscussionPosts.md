@@ -1,12 +1,13 @@
 ## PYTHON DISCUSSION POSTS: FALL 2025, PBSC
 
+
 ## How can learning about variables & user input in Python prepare you for more complex programming tasks and projects in the future?
 
 Without having a solid foundation built upon these sorts of fundamental lessons in Python programming, like we just went over with user input(), it becomes difficult to extrapolate on topics that are more logic-oriented, such as creating for loops & while loops which allow us to iterate through what we create & 'multitask' at the micro-level. As someone who has already been presented with more complex lessons due to previous exposure to Python programming, I'm grateful to be revisiting these things, not because it's easy versus hard, but because now I have the chance to fully digest some of the things I brushed over before. My advice to any of my classmates, even if you might be more experienced than I, take the time to fully explore these 'code-along' videos. Take advantage of being able to pause or go back to something that you don't fully understand.
 
 If you still find that some of these things are less challenging than anticipated, please read this last part: If I have the time, I'll record 'walk-through' videos using a screen recorder that cover the lessons I've learned, whether it be a fully finished project or a single issue. This is not because I have a large following on a social media account or something like that, it's because in real-life scenarios, like at a job, you'll be expected not just to 'understand' & nod yes or no, you'll be expected to discuss how you came to a conclusions or why one particular object is impacting another. If you haven't done this before, try it! You have nothing to lose because the only person who needs to watch them is you (for now at least).
 
-REFERENCES
+References.
 
 Felienne Hermans, (2021). YouTube | GOTO Conferences: https://www.youtube.com/watch?si=XWxHvXbB64rzSrB8&v=58LeSsn_nSQ&feature=youtu.be
 
@@ -17,21 +18,22 @@ Felienne Hermans, (2021). YouTube | GOTO Conferences: https://www.youtube.com/wa
 
 For loops & while loops are both programming constructs used by almost every modern programming language. However, in Python, they vary significantly, even though they accomplish a similar task: iteration. For loops are mainly used when you already know how many iterations there will be inside the loop, whereas in while loops, all variables in the condition must be defined beforehand. One more important distinction is that a for loop is generally 'safer' to use because it automatically ends once the conditions are met. With while loops, you must always manually ensure the stopping condition is eventually met, or the program will run forever, causing an infinite loop, which is to be avoided at all costs [1]. Below are some examples similar to the ones shown in the discussion video we just watched for this module. 
 
-# For Loop Example ⬇️
+<!--
+For Loop Example ⬇️
 
 for a in range(10):
   print(a)
 
-# While Loop Example ⬇️
+While Loop Example ⬇️
 
 a = 0
 while i < 9:
  print(i)
- i += 1
+ i += 1 -->
 
 Considering their lack of initialization, for loops are best used when you want to go through every item in a list or count to an integer a specific number of times. On the other hand, while loops are better for repeating an action until a certain, unpredictable thing happens (like asking the user for input about something). It really all depends on the type of goal(s) you're trying to accomplish, but while loops are a little more practical overall, in my personal opinion. but what's more preferable is using them together in a dynamic program, as opposed to creating something primitive that is with or without the other. 
 
-references
+References.
 
 [1] Molyneaux, B. (2024). Comparing Python's For & While Loops. Python Snacks: https://www.pythonsnacks.com/p/python-for-loop-while-loopLinks
 
@@ -44,7 +46,7 @@ As I've grown as a programmer, the need for constant technical documentation has
 
 Another way to accomplish writing comments in Python specifically is by using docstrings. Creating docstrings directly beneath function declarations works just like comments in any programming language, but the syntax is a little different. Simply use three double quotes like so, """, followed by whatever description of the function you've created in natural language. Lastly, close out the docstring by using another set of three double quotes, just like before, """. A proper docstring explicitly lists the Parameters (Arguments), the Return value, any Exceptions (Raises) & often includes real-life examples. Below is a visual example of a basic docstring.
 
-def main(demo):
+<!-- def main(demo):
     """
     This function demonstrates the use of docstrings.
         The only parameter is the demo object, which is then returned & displayed.
@@ -52,7 +54,7 @@ def main(demo):
          """
     return demo
 demo = "Eureka!"
-print(demo)
+print(demo) -->
 
 The final way to document what you've learned regarding functions is to make a video demonstrating just that, just like the "bro" from the video does. It might seem silly at first, but eventually you will be asked to demonstrate the code you've written on the spot, both in a job interview or from your boss at work, so getting that potential anxiety out of the way early on is worth it if you truly want a career in programming. 
 

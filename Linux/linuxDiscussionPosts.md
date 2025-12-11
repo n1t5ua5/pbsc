@@ -1,12 +1,13 @@
 ## LINUX FUNDAMENTALS DISCUSSION POSTS: FALL 2025, PBSC
 
+
 ## Question 1 - Proper Configuration of File & Directory Permissions:
 
 Discuss the importance of properly configuring file & directory permissions on a Linux server.
 
 Setting up file & directory permissions correctly from the beginning of a project is extremely important for keeping your files secure & organized. The permissions you have set ultimately determine who can read, write, or execute files. Without knowing the proper protocols beforehand, you risk giving someone else access to your information.
 
-2. Outline any security issues that you have encountered in the past as a result of using the default or less restrictive permissions on files or directories, or you might encounter in the future.
+1. Outline any security issues that you have encountered in the past as a result of using the default or less restrictive permissions on files or directories, or you might encounter in the future.
 
 Thankfully, I haven't had to deal with any serious security concerns regarding permissions myself, but now that I'm aware of the potential risks, I'm more cautious & deliberate about setting permissions correctly for any project in the command line.
 
@@ -14,13 +15,13 @@ Thankfully, I haven't had to deal with any serious security concerns regarding p
 
 Discuss your thoughts about handling basic directory tasks from the Linux command line.
 
-I'm confident in my ability to use essential commands, such as cd, ls, mkdir & pwd. However, I'm finding it more difficult to memorize the flags/options that follow them. This is probably because we use the flags less frequently than the commands. I researched online for another image with multiple flags in one place. Please feel free to take a copy for yourself [2].
+I'm confident in my ability to use essential commands, such as cd, ls, mkdir & pwd. However, I'm finding it more difficult to memorize the flags/options that follow them. This is probably because we use the flags less frequently than the commands. I researched online for another image with multiple flags in one place. Please feel free to take a copy for yourself 
 
 2. Do they feel that working from the command line increases or decreases their productivity? When working from Windows, do they generally use or avoid using the command line interface?
 
 Using the command line has increased my productivity because it's forced me to become more organized. Previously, I just kind of dragged & dropped files into random folders, but now I know I can easily keep track of everything [3]. I've enjoyed using Windows PowerShell primarily, which is where I first started working from the command line, to add repositories to my GitHub account. Git commands are essential in creating a consistent workflow. Nowadays, anytime I'm doing any hands-on coding, I start from the command line & end at the command line to ensure none of my work is lost. Now that I'm learning more about Linux, I'm able to get a full perspective on all the different universal (Git) & non-universal (Linux) commands to use. 
 
-references
+References.
 
 [1] McBrien, S. (2023, January). Linux File Permissions Explained. Redhat.com: https://www.redhat.com/en/blog/linux-file-permissions-explained 
 
@@ -37,11 +38,11 @@ Discuss any experiences you may have with different filesystems. What are some o
 
 B) Why might one administrator choose one Linux filesystem over another? If you do not have any experiences, feel free to project or create a possible scenario to address the question.
 
-Imagining a world without a uniform filesystem structure is both scary & confusing! With hindsight, I guessed that a major reason why Linux didn't have one initially was probably because, for most programmers at the time of its inception (1991), there still wasn't a universal consensus about these sorts of architectural concepts that are commonplace nowadays. Or that most people choose one system over another, largely depending on user satisfaction from an intuitive layout at the bare minimum. But after doing some more reading & research, the original lack of a single "default" filesystem in Linux was largely due to ongoing technological advancement, not a lack of architectural consensus on how the filesystem should be laid out. One of the major standards that was adopted is the FileSystem Hierarchy Standard, or FHS for short. This provides for a uniform directory structure (i.e., /etc, /home, etc.) [1].
+Imagining a world without a uniform filesystem structure is both scary & confusing! With hindsight, I guessed that a major reason why Linux didn't have one initially was probably because, for most programmers at the time of its inception (1991), there still wasn't a universal consensus about these sorts of architectural concepts that are commonplace nowadays. Or that most people choose one system over another, largely depending on user satisfaction from an intuitive layout at the bare minimum. But after doing some more reading & research, the original lack of a single "default" filesystem in Linux was largely due to ongoing technological advancement, not a lack of architectural consensus on how the filesystem should be laid out. One of the major standards that was adopted is the FileSystem Hierarchy Standard, or FHS for short. This provides for a uniform directory structure (i.e., /etc, /home, etc.).[1]
 
 When choosing which sort of filesystem to use for a project, a programmer's choice is generally made depending on the requirements of the server or storage [2]. On the surface, one of the bigger shortcomings of Linux is that, given its free-to-use nature, larger enterprises can't always rely on it for customer support because there is no inherent customer support feature, which would be a disaster in emergencies like a power outage. But nowadays, there are several paid Linux distributions that offer 24/7 customer support, like Red Hat Enterprise Linux (RHEL) [3].
 
-references.
+References.
 
 [1] Cengage, (2016). LearningCompTIA Linux + Guide to Linux Certification (5th ed.).
 
@@ -140,12 +141,12 @@ Based on the network environments you use (either Linux or Windows), please find
 For most of my life, I've exclusively worked inside Windows environments, but I've been trying to work inside a Linux virtual environment recently after my Python tutor showed me how to use Copespaces inside GitHub. So, apart from this class, that's the only other true experience I have working hands-on with Linux systems. In the end, they will both deliver the same results, but user preference on how they get to their end destination can vary greatly. The most common problem Windows users face is that they can leave themselves vulnerable without realizing it by using older commands, such as xcopy, over updated ones that maintain data integrity. This is one reason why Linux is often viewed as more secure than Windows, which is generally true. In response, you can also use file utilities as a security measure, such as Robocopy, which offers better ways to handle incoming errors. One major benefit to working inside a Windows network environment is that it's compatible with almost any program you could think of.
 
 Another major benefit of working inside a Linux environment over Windows is that it gives users greater flexibility because it is a lot more customizable than Windows. One major shortcoming of Linux systems when compared with Windows is the learning curve itself. This is because the Linux command line interface (CLI) looks & operates differently when compared with the Windows graphical user interface (GUI). One way to overcome this is by working inside a user-friendly distribution like Linux Mint, which offers a more familiar GUI. Understanding the specific differences of compatibility is another setback, whereas popular programs like Adobe Creative Suite aren't built for Linux environments whatsoever. This ensures that any Linux user is prepared to search for other open-source alternatives, such as GIMP or Blender.
+
 Despite some of these stark differences, this class has helped push me outside of my comfort zone in a positive way & I feel confident about learning more about Linux system use in my spare time because I'm a computer programming major & I know I will encounter them again.
 
 References.
 [1] Zacks, S. (2024, March). Is Linux Really More Secure than Windows? | PIA Inc via privateinternetaccess.com: https://www.privateinternetaccess.com/blog/linux-vs-windows/
-[2] 
-Hostman. (2025, September). Linux vs Windows: Comparison, Pros & Cons. | Hostman LTD via hostman.com: https://hostman.com/blog/linux-vs-windows/ 
+[2] Hostman. (2025, September). Linux vs Windows: Comparison, Pros & Cons. | Hostman LTD via hostman.com: https://hostman.com/blog/linux-vs-windows/ 
 [3]  Cengage Learning. (2016). LearningCompTIA Linux + Guide to Linux Certification (5th ed.).
 
 -----
