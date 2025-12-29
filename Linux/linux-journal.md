@@ -18,7 +18,150 @@ Today in class, we learned how to use new commands in Linux. The two videos link
 
 
 
-``` cp /etc/passwd ~/documents/work
+```
+
+
+su
+pass ?
+cat /var/log/boot.log
+tail -f /var/log/messages
+ctrl + c
+
+rpm -qa | more
+spacebar
+rpm -V httpd
+clear
+
+yum install sysstat 
+y
+
+mpstat
+iostat
+top
+free
+
+nmap
+y
+nmap -sT localhost
+close terminal screen
+
+
+
+
+sudo cat /boot/grub/grub.conf
+sudo vi /boot/grub/grub.conf
+reboot
+
+
+
+
+ifconfig 
+
+cat /etc/sysconfig/network-scripts/ifcfg-eth0
+
+ping 127.0.0.1
+
+ctrl + c
+
+ping 192.168.15.1
+
+ctrl + c
+
+ping 8.8.8.8
+
+
+sudo ifconfig eth0 192.168.15.254 netmask 255.255.255.0
+
+Passw0rd
+
+ifconfig
+
+
+
+cat /etc/hosts
+
+sudo vi /etc/hosts
+
+*password*
+
+i then enter on last line
+
+192.168.15.107 thiscomputer
+
+ping thiscomputer
+
+ctrl + c
+
+cat /etc/resolv.conf
+
+
+
+sudo vi /etc/hosts
+
+i
+
+192.168.15.107 tab thiscomputer
+
+esc :wq
+
+ping thiscomputer
+
+ctrl + c
+
+cat /etc/resolv.conf
+
+ping thiscomputer
+
+
+
+sudo route add -net 2.0.0.0 netmask 255.0.0.0 gw 192.168.15.150
+
+route
+
+sudo route del -net 2.0.0.0 netmask 255.0.0.0 gw 192.168.15.150
+
+
+
+sudo yum install telnet-server
+
+sudo vi /etc/xinetd.d/telnet
+
+sudo service xinetd restart
+
+
+sudo chkconfig sshd on
+
+sudo /etc/init.d/sshd start
+
+ssh root@localhost
+
+ 
+
+cp .bash_history sample1
+cp /etc/passwd sample2
+ls -l sample*
+
+compress -v sample1 sample2
+
+zcat sample1.Z
+uncompress -v sample1.Z sample2.Z
+ls -l sample*
+clear
+
+ls -l sample*
+
+zcat sample1.gz
+gunzip -v sample1.gz sample2.gz
+ls -l sample*
+
+ls -l sample*
+bzip2 -v sample1 sample2
+
+bzcat sample1.bz2
+bzunip2 -v sample1.bz2 sample2.bz2
+
+
+cp /etc/passwd ~/documents/work
 cd ~/documents/work
 cp passwd passwd2
 mv passwd2 ~/documents/misc
