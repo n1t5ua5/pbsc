@@ -1,1 +1,1 @@
-## My thoughts on Security Essentials ##
+## 🔐 My thoughts on Security Essentials 🔐 ##

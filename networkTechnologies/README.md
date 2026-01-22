@@ -1,1 +1,1 @@
-## My thoughts on Network Technologies ##
+## 📡 My thoughts on Network Technologies 📡 ##
