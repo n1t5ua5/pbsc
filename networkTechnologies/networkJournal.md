@@ -6,9 +6,9 @@
 
 ## Create your own analogy of the OSI Reference Model - 1/21/2026 🛻
 
-![alt text](image.png)
+<img width="888" height="545" alt="image" src="https://github.com/user-attachments/assets/07287636-3497-44b7-a98b-d0de51b4f7f1" />
 
-![alt text](image-1.png)
+<img width="1448" height="383" alt="image" src="https://github.com/user-attachments/assets/e160b817-da67-4d07-8807-38e09088f44a" />
 
 *1. What challenges might arise if one layer fails or malfunctions? Provide a hypothetical scenario.*
 
